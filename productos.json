@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:19:23+00:00",
+ "updated": "2026-11-26T01:45:24+00:00",
  "stores": [
   {
    "id": "akiba",
@@ -1984,6 +1984,16 @@
    "u": "https://akibastore.mitiendanube.com/productos/neon-genesis-evangelion-decade-ost-limited-edition-r7zzc/?entry_path=category&entry_category_id=41178679"
   },
   {
+   "s": "akiba",
+   "n": "PlayStation 2 Slim completa con lente funcional",
+   "p": "PS2",
+   "c": "Otros",
+   "pr": 289900.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/neo-geo-battle-colliseum-americano-ps2-19b7u/"
+  },
+  {
    "s": "amigo",
    "n": "Tamagotchi 2",
    "p": "Game Boy",
@@ -3192,6 +3202,1626 @@
    "tr": null,
    "st": 1,
    "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/dragon-ball-gt-16-episodios-46-47-y-48"
+  },
+  {
+   "s": "amigo",
+   "n": "Donald Duck - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/donald-duck-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Momotarou Dentetsu DX - Super Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-momotarou-dentetsu-dx-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Jikkyou Power Pro Yakkyu 94 - Super Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/jikkyou-power-pro-yakkyu-94-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Family Mahjong II (con detalles) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 45000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/family-mahjong-ii-con-detalles-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Family Stadium 87 - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/family-stadium-87-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Family Tennis - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/family-tennis-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Famista 90 - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/famista-90-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Famista 91 - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/famista-91-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Family Mahjong II - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/family-mahjong-ii-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Gyrodine - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 70000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/gyrodine-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Golf (caja grande) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/golf-caja-grande-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Field Combat - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/field-combat-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Pennant League - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/pennant-league-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Championship Lode Runner - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/championship-lode-runner-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Pac-Land- Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/pac-land-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Kero Kero Keroppi - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/kero-kero-keroppi-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Bebop Highschool - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/bebop-highschool-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Pachi Com - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/pachi-com-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Kamen Rider Club - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/kamen-rider-club-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Popeye- Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/popeye-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Downtown Special: Kunio kun no Jidaigeki da you Zenin Shougo- Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/downtown-special-kunio-kun-no-jidaigeki-da-you-zenin-shougo-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Clu Clu Land - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/clu-clu-land-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Yie Ar Kung Fu - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/yie-ar-kung-fu-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Donkey Kong 3 - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/donkey-kong-3-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Ultraman Club 2 - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/ultraman-club-2-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Nuts and Milk - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/nuts-and-milk-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Tsuppari Ozumou - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/tsuppari-ozumou-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Star Force - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/star-force-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Warpman - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/warpman-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Kage no Densetsu - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/kage-no-densetsu-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball Z 2 Gekishin Freezer - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/dragon-ball-z-2-gekishin-freezer-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #8",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-8"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #7",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-7"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #6",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-6"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #5",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-5"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #4",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-4"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #3",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-3"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #2",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-2"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #1",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-1"
+  },
+  {
+   "s": "amigo",
+   "n": "Famista 91 (con manual) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/famista-91-con-manual-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "1oth Yard Fight (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/1oth-yard-fight-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Seicross (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/seicross-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Quest IV (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/dragon-quest-iv-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Devil World (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/devil-world-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Family Boxing (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/family-boxing-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Downtown Nekketsu Koushinkyoku (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/downtown-nekketsu-koushinkyoku-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Star Luster (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/star-luster-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Bakushou Jinsei Gekijou 3 (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/bakushou-jinsei-gekijou-3-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Xevious (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/xevious-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Kanshakudama Nage Kantarou no Toukaidou Gojuusan Tsugi (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/kanshakudama-nage-kantarou-no-toukaidou-gojuusan-tsugi-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Exed Exes (Usado) - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/exed-exes-usado-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Club Nintendo #6",
+   "p": "—",
+   "c": "Otros",
+   "pr": 5000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/club-nintendo-6"
+  },
+  {
+   "s": "amigo",
+   "n": "OK Consolas #4",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/ok-consolas-4"
+  },
+  {
+   "s": "amigo",
+   "n": "Hobby Consolas #172",
+   "p": "—",
+   "c": "Otros",
+   "pr": 5000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/hobby-consolas-172"
+  },
+  {
+   "s": "amigo",
+   "n": "Pokemon Collector #4",
+   "p": "—",
+   "c": "Otros",
+   "pr": 3000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/pokemon-collector-4"
+  },
+  {
+   "s": "amigo",
+   "n": "Consorito Especial #3",
+   "p": "—",
+   "c": "Otros",
+   "pr": 1500.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/consorito-especial-3"
+  },
+  {
+   "s": "amigo",
+   "n": "Condorito #429",
+   "p": "—",
+   "c": "Otros",
+   "pr": 1500.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/condorito-429"
+  },
+  {
+   "s": "amigo",
+   "n": "Rayden and Kano #2",
+   "p": "—",
+   "c": "Otros",
+   "pr": 5000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/rayden-and-kano-2"
+  },
+  {
+   "s": "amigo",
+   "n": "Pokemon #1",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/pokemon-1"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball Serie Roja #41",
+   "p": "—",
+   "c": "Otros",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/dragon-ball-serie-roja-41"
+  },
+  {
+   "s": "amigo",
+   "n": "Club Play #47",
+   "p": "—",
+   "c": "Otros",
+   "pr": 3000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/club-play-47"
+  },
+  {
+   "s": "amigo",
+   "n": "Pocket Magazine",
+   "p": "—",
+   "c": "Otros",
+   "pr": 3000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/pocket-magazine"
+  },
+  {
+   "s": "amigo",
+   "n": "Pocket Magazine #3",
+   "p": "—",
+   "c": "Otros",
+   "pr": 3000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/pocket-magazine-3"
+  },
+  {
+   "s": "amigo",
+   "n": "Saint Seiya #5 - Ed IVREA",
+   "p": "—",
+   "c": "Otros",
+   "pr": 5000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/saint-seiya-5-ed-ivrea"
+  },
+  {
+   "s": "amigo",
+   "n": "Dash Yarou - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/dash-yarou-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Batsu and Terry - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/batsu-and-terry-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "America Oudan Ultra Quiz - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 25000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/america-oudan-ultra-quiz-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Jarinko Chie - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/jarinko-chie-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Yoshi no Tamago - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/yoshi-no-tamago-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Ninja Hattori Kun - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/ninja-hattori-kun-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Route 16 Turbo - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/route-16-turbo-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Othello - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/othello-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Mickey Mouse Fushigi no Kuni no Daibouken - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/mickey-mouse-fushigi-no-kuni-no-daibouken-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Ghost in the Shell 1.5",
+   "p": "—",
+   "c": "Otros",
+   "pr": 16000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/ghost-in-the-shell-15"
+  },
+  {
+   "s": "amigo",
+   "n": "Fragmentos del Horror",
+   "p": "—",
+   "c": "Otros",
+   "pr": 16000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/fragmentos-del-horror"
+  },
+  {
+   "s": "amigo",
+   "n": "Takahashi Meijin no Bugutte Honey - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/takahashi-meijin-no-bugutte-honey-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Battlecity - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 90000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/battlecity-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Shogi - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 12000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-shogi-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Famista - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-famista-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Seiken Densetsu 2 - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/seiken-densetsu-2-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Mahjong Taikai - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 12000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-mahjong-taikai-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Battle Soccer 2 - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/battle-soccer-2-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Tennis - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 25000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-tennis-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Zen Nippon Pro Wrestling - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/zen-nippon-pro-wrestling-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Famista 4 - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-famista-4-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Katou Hifumi Kudan: Shogi Club - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 7000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/katou-hifumi-kudan-shogi-club-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Donkey Kong - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 45000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-donkey-kong-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Hyper Olympic - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/hyper-olympic-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Hyper Sports - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/hyper-sports-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Chinese World - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-chinese-world-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Battle Dodgeball 2 - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/battle-dodgeball-2-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Shounen Ashibe: Goma-chan no Yuuenchi Daibouken - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/shounen-ashibe-goma-chan-no-yuuenchi-daibouken-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Block Kuzushi - Gameboy (Usado)",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/block-kuzushi-gameboy-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Saint Seiya Ougon Densetsu Kanketsu Hen - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/saint-seiya-ougon-densetsu-kanketsu-hen-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Donkey Kong Jr - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/donkey-kong-jr-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Tennis - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/tennis-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "JaJaMaru no Daibouken - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/jajamaru-no-daibouken-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Transformers: Mystery of Comvoy - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/transformers-mystery-of-comvoy-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Goonies - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/goonies-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Buster - Famicom",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/dragon-buster-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Lote Kick-Ass - Ed. OVNIPRESS",
+   "p": "—",
+   "c": "Otros",
+   "pr": 70000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/lote-kick-ass-ed-ovnipress"
+  },
+  {
+   "s": "amigo",
+   "n": "Lote Marvel Zombies - Ed. OVNIPRESS",
+   "p": "—",
+   "c": "Otros",
+   "pr": 70000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/lote-marvel-zombies-ed-ovnipress"
+  },
+  {
+   "s": "amigo",
+   "n": "Nekketsu Koukou Soccer Bu: World Cup Hen - Gameboy (Usado)",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/nekketsu-koukou-soccer-bu-world-cup-hen-gameboy-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Namco Classics - Gameboy (Usado)",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/namco-classics-gameboy-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Honoo no Toukyuuji: Dodge Danpei - Gameboy",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/honoo-no-toukyuuji-dodge-danpei-gameboy"
+  },
+  {
+   "s": "amigo",
+   "n": "Baseball Kids - Gameboy (Usado)",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/baseball-kids-gameboy-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Fire Pro Wrestling- Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-fire-pro-wrestling-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Ganbare pennant race -Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/ganbare-pennant-race-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "NBA Power Dunkers 3 - PS1 (Usado)",
+   "p": "PS1",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/playstation-1/nba-power-dunkers-3-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Puyo Puyo Tsu - Gameboy (Usado)",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/puyo-puyo-tsu-gameboy-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Quest Monster - Gameboy Color (Usado)",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/dragon-quest-monster-gameboy-color-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Pokemon Trading Card Game - Gameboy Color (Usado)",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/pokemon-trading-card-game-gameboy-color-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Ikki - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/ikki-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Hydlide Special - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/hydlide-special-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Nekketsu Koukou Dodgeball Bu - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/nekketsu-koukou-dodgeball-bu-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Nekketsu Kakutou Densetsu - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/nekketsu-kakutou-densetsu-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Doraemon - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 45000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/doraemon-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Ninja JaJamaru Kun - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/ninja-jajamaru-kun-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Makaimura (Ghost and Goblins) - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/makaimura-ghost-and-goblins-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Power League 3 - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 15000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-power-league-3-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Captain Tsubasa - Family Computer (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/captain-tsubasa-family-computer-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Samurai Spirits - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/samurai-spirits-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "K1 Revenge - Ps1 (Usado)",
+   "p": "PS1",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/playstation-1/k1-revenge-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Mario Collection All Stars - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 55000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-mario-collection-all-stars-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Space Invaders 2000 - Ps1 (Usado",
+   "p": "PS1",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/playstation-1/space-invaders-2000-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Kidou Senshi Z Gundam: Hot Scramble - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/kidou-senshi-z-gundam-hot-scramble-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Famicom Jump: Hero Retsuden - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/famicom-jump-hero-retsuden-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Momotaro Dentetsu - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/super-momotaro-dentetsu-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Pooyan - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/pooyan-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Soccer - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/soccer-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Muscle Bomber - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/muscle-bomber-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Fire Pro Wrestling 2 - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/super-fire-pro-wrestling-2-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuman - Físico - Game Boy (Usado)",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/yakuman-fisico-game-boy-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Lote Revistas Fierro Y Satiricon (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/lote-revistas-fierro-y-satiricon-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Superman Y Wonder Woman Sacrificio Sd (español) (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/superman-y-wonder-woman-sacrificio-sd-espanol-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Hero Senki: Project Olympus - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/hero-senki-project-olympus-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Golf - Físico - Game Boy (Usado)",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/golf-fisico-game-boy-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Hobby Consolas #323 (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 9000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/hobby-consolas-323-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Identity Crisis #1 Al 4 (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/identity-crisis-1-al-4-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Baljak # 3- Ed. Ivrea (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 5000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/baljak-3-ed-ivrea-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Dc Capitan Atom Vol 2 Zinco (español) (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 3500.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/dc-capitan-atom-vol-2-zinco-espanol-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super 50 En 1 - Gameboy (Usado)",
+   "p": "Game Boy",
+   "c": "Otros",
+   "pr": 25000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/gameboy/super-50-en-1-gameboy-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Manga Miyuki-chan In Wonderland (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/manga-miyuki-chan-in-wonderland-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Dr Mario - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/dr-mario-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Sd Gundam World Gachapon Senshi 3 - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/sd-gundam-world-gachapon-senshi-3-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Power Pro Wrestling - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/power-pro-wrestling-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Mario Paint - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/mario-paint-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Tobal No. 1 - Ps1 (Usado)",
+   "p": "PS1",
+   "c": "Otros",
+   "pr": 80000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/playstation-1/tobal-no-1-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Quest Vii - Ps1 (Usado)",
+   "p": "PS1",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/playstation-1/dragon-quest-vii-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Wonder Project J - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/wonder-project-j-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Mario Bros - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/super-mario-bros-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Black Dawn - Ps1 (Usado)",
+   "p": "PS1",
+   "c": "Otros",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/playstation-1/black-dawn-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Tekken 2 - Ps1 (Usado)",
+   "p": "PS1",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/playstation-1/tekken-2-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Tekken - Ps1 (Usado)",
+   "p": "PS1",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/playstation-1/tekken-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Capcom Barcelona 92 - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/capcom-barcelona-92-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Ikari Warriors 2 (dougo Souken) - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/ikari-warriors-2-dougo-souken-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Dbz Butouden 3 - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/dbz-butouden-3-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Fire Pro Joshi: All Star Dream Slam - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/fire-pro-joshi-all-star-dream-slam-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Yu Yu Hakusho Edicion Kanzenban 15 - Editorial Ivrea",
+   "p": "—",
+   "c": "Otros",
+   "pr": 18000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/manga-comic-y-revistas/yu-yu-hakusho-edicion-kanzenban-15-editorial-ivrea"
+  },
+  {
+   "s": "amigo",
+   "n": "Sim City - Super Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/super-famicom/sim-city-super-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Majou Densetsu 2: Galious No Meikyu - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/majou-densetsu-2-galious-no-meikyu-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Road Fighter - Famicom (Usado)",
+   "p": "—",
+   "c": "Otros",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://tiendadeamigo.com.ar/videojuegos/famicom/road-fighter-famicom-usado"
   }
  ]
 }
