@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Metabuscador retro</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%95%B9%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#F1F2F7;--surface:#FFFFFF;--ink:#17172B;--muted:#5E6078;--line:#D9DBE8;--accent:#5B3FD9;--accent-ink:#FFFFFF;--a:#D9481F;--t:#0B7F74;--good:#1C7A3E;--out:#8A8CA3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12121F;--surface:#1C1C2E;--ink:#ECECF7;--muted:#A3A5BE;--line:#32334B;--accent:#9C86FF;--accent-ink:#12121F;--a:#FF8A63;--t:#4FD1C2;--good:#6FD394;--out:#7A7C96;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12121F;--surface:#1C1C2E;--ink:#ECECF7;--muted:#A3A5BE;--line:#32334B;--accent:#9C86FF;--accent-ink:#12121F;--a:#FF8A63;--t:#4FD1C2;--good:#6FD394;--out:#7A7C96;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 "Instrument Sans",system-ui,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:28px 16px 48px}
+h1{font:800 clamp(2rem,6vw,3.4rem)/1.02 "Bricolage Grotesque",system-ui,sans-serif;margin:0 0 6px;letter-spacing:-.02em}
+.sub{color:var(--muted);margin:0 0 22px;max-width:60ch}
+.search{width:100%;font:inherit;font-size:1.1rem;padding:14px 16px;border:2px solid var(--ink);border-radius:10px;background:var(--surface);color:var(--ink)}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0 6px}
+.chip{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border:1.5px solid var(--line);border-radius:999px;background:var(--surface);cursor:pointer;font-weight:500;user-select:none}
+.chip input{position:absolute;opacity:0;pointer-events:none}
+.chip i{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.chip:has(input:checked){border-color:var(--c);box-shadow:inset 0 0 0 1px var(--c)}
+.chip:has(input:not(:checked)){opacity:.55}
+.chip:has(input:focus-visible),.search:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+select{font:inherit;padding:8px 10px;border:1.5px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.tick{display:flex;gap:6px;align-items:center;color:var(--muted)}
+.count{margin:18px 0 8px;color:var(--muted)}
+.head,.row{display:grid;grid-template-columns:110px 1fr 130px 170px 110px;gap:14px;align-items:center;padding:12px 14px}
+.head{color:var(--muted);font-weight:600;font-size:.9rem;border-bottom:2px solid var(--ink)}
+.row{background:var(--surface);border-bottom:1px solid var(--line)}
+.row.out{color:var(--out)}
+.store{font-weight:600;display:flex;align-items:center;gap:8px}
+.store i{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.name{font-weight:600}
+.meta{color:var(--muted);font-size:.9rem}
+.price{font:800 1.2rem "Bricolage Grotesque",system-ui,sans-serif;white-space:nowrap}
+.tr{font-size:.85rem;color:var(--good);font-weight:500}
+.tag{display:inline-block;font-size:.8rem;font-weight:600;padding:1px 8px;border-radius:6px;background:var(--good);color:var(--surface);margin-left:6px}
+.go{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600;text-align:center}
+.row.out .go{background:transparent;color:var(--muted);border:1.5px solid var(--line)}
+.empty{padding:40px 14px;background:var(--surface);text-align:center;color:var(--muted)}
+.note{margin-top:22px;color:var(--muted);font-size:.9rem;max-width:70ch}
+@media (max-width:760px){
+.head{display:none}
+.row{grid-template-columns:1fr auto;grid-template-areas:"store price" "name name" "meta go";gap:6px 12px}
+.row>.store{grid-area:store}.row>.pc{grid-area:price;text-align:right}.row>.nm{grid-area:name}.row>.pl{grid-area:meta}.row>.act{grid-area:go}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Metabuscador retro</h1>
+  <p class="sub">Videojuegos, consolas y más de tiendas argentinas, en una sola lista para comparar precios.</p>
+  <input id="q" class="search" type="search" placeholder="Buscar por nombre: Resident Evil, Dreamcast, Game Boy…" aria-label="Buscar productos">
+  <div class="bar" id="stores"></div>
+  <div class="bar">
+    <select id="cat" aria-label="Categoría"><option value="">Todas las categorías</option></select>
+    <select id="plat" aria-label="Plataforma"><option value="">Todas las plataformas</option></select>
+    <select id="sort" aria-label="Ordenar">
+      <option value="asc">Precio: menor a mayor</option>
+      <option value="desc">Precio: mayor a menor</option>
+      <option value="name">Nombre (A-Z)</option>
+    </select>
+    <label class="tick"><input type="checkbox" id="stock" checked>Solo con stock</label>
+  </div>
+  <div class="count" id="count" aria-live="polite"></div>
+  <div class="head" role="row"><span>Tienda</span><span>Producto</span><span>Plataforma</span><span>Precio</span><span></span></div>
+  <div id="list"></div>
+  <p class="note">Precios en pesos argentinos, actualizados por última vez el <span id="upd">…</span>. Pueden cambiar y el stock se agota rápido: confirmá en la tienda antes de comprar. Cuando una tienda ofrece descuento por transferencia, se muestra debajo del precio de lista.</p>
+</div>
+<script>
+let D=[],S={};const COL=["var(--a)","var(--t)","var(--accent)","var(--good)"];
+const $=id=>document.getElementById(id),fmt=n=>"$"+n.toLocaleString("es-AR"),norm=s=>s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+const fill=(el,vals)=>vals.forEach(v=>{const o=document.createElement("option");o.value=o.textContent=v;el.appendChild(o)});
+function setup(j){
+  j.stores.forEach((s,i)=>S[s.id]={n:s.name,short:s.short,c:COL[i%COL.length]});
+  D=j.items.map(d=>({...d,g:norm(d.n).replace(/[^a-z0-9]/g,"")}));
+  $("stores").innerHTML=j.stores.map(s=>`<label class="chip" style="--c:${S[s.id].c}"><input type="checkbox" data-s="${s.id}" checked><i></i>${esc(s.name)}</label>`).join("");
+  fill($("cat"),[...new Set(D.map(d=>d.c))].sort());
+  fill($("plat"),[...new Set(D.map(d=>d.p).filter(p=>p!=="—"))].sort());
+  $("upd").textContent=new Date(j.updated).toLocaleDateString("es-AR",{day:"numeric",month:"long",year:"numeric"});
+}
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function render(){
+  const q=norm($("q").value.trim()),on=[...document.querySelectorAll("[data-s]")].filter(c=>c.checked).map(c=>c.dataset.s);
+  const cat=$("cat").value,plat=$("plat").value,only=$("stock").checked,so=$("sort").value;
+  // el más barato de cada producto presente en 2 o más tiendas con stock
+  const best={};
+  D.filter(d=>d.g&&d.st).forEach(d=>{(best[d.g]=best[d.g]||[]).push(d)});
+  const cheapest=new Set(Object.values(best).filter(a=>a.length>1&&new Set(a.map(x=>x.s)).size>1).map(a=>a.reduce((m,x)=>x.pr<m.pr?x:m)));
+  let r=D.filter(d=>on.includes(d.s)&&(!cat||d.c===cat)&&(!plat||d.p===plat)&&(!only||d.st)&&(!q||q.split(/\s+/).every(w=>norm(d.n+" "+d.p).includes(w))));
+  r.sort((a,b)=>(b.st-a.st)||(so==="name"?a.n.localeCompare(b.n,"es"):so==="desc"?(b.pr??0)-(a.pr??0):(a.pr??1e12)-(b.pr??1e12)));
+  $("count").textContent=r.length+(r.length===1?" producto":" productos");
+  $("list").innerHTML=r.length?r.map(d=>`<div class="row${d.st?"":" out"}">
+    <div class="store" style="--c:${S[d.s].c}"><i></i>${esc(S[d.s].short)}</div>
+    <div class="nm"><div class="name">${esc(d.n)}${cheapest.has(d)?'<span class="tag">Más barato</span>':""}</div><div class="meta">${d.c}</div></div>
+    <div class="pl meta">${d.p==="—"?"":d.p}</div>
+    <div class="pc">${d.st?`<div class="price">${fmt(d.pr)}</div>${d.tr?`<div class="tr">${fmt(d.tr)} por transferencia</div>`:""}`:'<div class="meta">Sin stock</div>'}</div>
+    <div class="act"><a class="go" href="${d.u}" target="_blank" rel="noopener">Ver en tienda</a></div></div>`).join(""):'<div class="empty">No hay productos con esos filtros. Probá con otra búsqueda o desactivá “Solo con stock”.</div>';
+}
+["input","change"].forEach(e=>document.addEventListener(e,render));
+fetch("productos.json").then(r=>r.json()).then(j=>{setup(j);render()}).catch(()=>{$("list").innerHTML='<div class="empty">No se pudo cargar productos.json.</div>'});
+</script>
+</body>
+</html>
