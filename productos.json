@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T12:00:00+00:00",
+ "updated": "2026-11-26T01:19:23+00:00",
  "stores": [
   {
    "id": "akiba",
@@ -15,233 +15,183 @@
  "items": [
   {
    "s": "akiba",
-   "n": "Perfect Dark Americano CIB",
-   "p": "N64",
-   "c": "Juegos",
-   "pr": 289900,
-   "tr": 260910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/perfect-dark-americano-cib-9ww0a"
-  },
-  {
-   "s": "akiba",
-   "n": "Odin Sphere Americano CIB",
-   "p": "PS2",
-   "c": "Juegos",
-   "pr": 159900,
-   "tr": 143910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/odin-sphere-americano"
-  },
-  {
-   "s": "akiba",
-   "n": "Xenosaga Ep. 1 Americano CIB",
-   "p": "PS2",
-   "c": "Juegos",
-   "pr": 209900,
-   "tr": 188910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/xenosaga-ep-1-americano"
-  },
-  {
-   "s": "akiba",
-   "n": "OutRun CIB Americano",
+   "n": "Consola PlayStation 2 completa en caja PS2 Silver Japan",
    "p": "—",
-   "c": "Juegos",
-   "pr": 299900,
-   "tr": 269910,
+   "c": "Consolas",
+   "pr": 499900.0,
+   "tr": 449910.0,
    "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/outrun-cib-americano-u2yxb"
-  },
-  {
-   "s": "akiba",
-   "n": "Vampire Savior EX Edition (Darkstalkers) Japonés",
-   "p": "Dreamcast",
-   "c": "Juegos",
-   "pr": 189900,
-   "tr": 170910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/vampire-savior-ex-edition-darkstalkers-japones"
-  },
-  {
-   "s": "akiba",
-   "n": "Super Mario 64 CIB Americano",
-   "p": "N64",
-   "c": "Juegos",
-   "pr": 379900,
-   "tr": 341910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/super-mario-64-cib-americano-fa5hq"
+   "u": "https://akibastore.mitiendanube.com/productos/consola-playstation-2-completa-en-caja-ps2-silver-japan-fyiwn/"
   },
   {
    "s": "akiba",
    "n": "Sega Dreamcast Japonesa ver. Presidente en caja",
-   "p": "Dreamcast",
-   "c": "Consolas",
-   "pr": 699900,
-   "tr": 629910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/sega-dreamcast-japonesa-ver-presidente-en-caja-1690j"
-  },
-  {
-   "s": "akiba",
-   "n": "Goldeneye 007 Americano CIB",
-   "p": "N64",
-   "c": "Juegos",
-   "pr": 279900,
-   "tr": 251910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/goldeneye-007-americano-cib-n64-ctz6a"
-  },
-  {
-   "s": "akiba",
-   "n": "Streets of Rage 2 Not for Resale CIB Americano",
-   "p": "Genesis",
-   "c": "Juegos",
-   "pr": 299900,
-   "tr": 269910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/streets-of-rage-2-not-for-resale-sega-genesis-cib-americano-voqco"
-  },
-  {
-   "s": "akiba",
-   "n": "Resident Evil Requiem Deluxe Edition Sellado",
-   "p": "Switch 2",
-   "c": "Juegos",
-   "pr": 359900,
-   "tr": 323910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-requiem-switch-2-deluxe-edition-sellado-1uh0u"
-  },
-  {
-   "s": "akiba",
-   "n": "Castlevania Dominus Collection Sellado",
-   "p": "PS5",
-   "c": "Juegos",
-   "pr": 159900,
-   "tr": 143910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/castlevania-dominus-collection-ps5-sellado-jpu2y"
-  },
-  {
-   "s": "akiba",
-   "n": "Valkyrie Profile 2 CIB Americano",
-   "p": "PS2",
-   "c": "Juegos",
-   "pr": 189900,
-   "tr": 170910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/valkyrie-profile-2-ps2-cib-americano-19i9f"
-  },
-  {
-   "s": "akiba",
-   "n": "Consola PlayStation 2 completa en caja Silver Japan",
-   "p": "PS2",
-   "c": "Consolas",
-   "pr": 499900,
-   "tr": 449910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/consola-playstation-2-completa-en-caja-ps2-silver-japan-fyiwn"
-  },
-  {
-   "s": "akiba",
-   "n": "Sonic & Knuckles CIB Americano",
-   "p": "Genesis",
-   "c": "Juegos",
-   "pr": 399900,
-   "tr": 359910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/sonic-knuckles-sega-genesis-americano-cib-13v67"
-  },
-  {
-   "s": "akiba",
-   "n": "Final Fantasy I-VI Collection Anniversary Edition",
    "p": "—",
-   "c": "Juegos",
-   "pr": 199900,
-   "tr": 179910,
+   "c": "Consolas",
+   "pr": 699900.0,
+   "tr": 629910.0,
    "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-i-vi-collection-anniversary-edition-wyoi3"
+   "u": "https://akibastore.mitiendanube.com/productos/sega-dreamcast-japonesa-ver-presidente-en-caja-1690j/"
   },
   {
    "s": "akiba",
-   "n": "Resident Evil 4 Greatest Hits Impecable",
-   "p": "PS2",
-   "c": "Juegos",
-   "pr": 119900,
-   "tr": 107910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-4-ps2-greatest-hits-impecable-1cblg"
-  },
-  {
-   "s": "akiba",
-   "n": "Resident Evil 2 Americano CIB",
-   "p": "PS1",
-   "c": "Juegos",
-   "pr": 289900,
-   "tr": 260910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-2-americano-ps1-1qzci"
-  },
-  {
-   "s": "akiba",
-   "n": "Castlevania Symphony of the Night",
-   "p": "PS1",
-   "c": "Juegos",
-   "pr": 549900,
-   "tr": 494910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/castlevania-symphony-of-the-night-ps1-hcg9x"
-  },
-  {
-   "s": "akiba",
-   "n": "Obscure The Aftermath Americano CIB",
-   "p": "PS2",
-   "c": "Juegos",
-   "pr": 299900,
-   "tr": 269910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/obscure-the-aftermath-americano-ps2-cib-lfwt9"
-  },
-  {
-   "s": "akiba",
-   "n": "Final Fantasy X-2",
-   "p": "PS2",
-   "c": "Juegos",
-   "pr": 99900,
-   "tr": 89910,
-   "st": 1,
-   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-x-2"
-  },
-  {
-   "s": "akiba",
-   "n": "Crash 3 Warped Collector’s Edition",
-   "p": "PS1",
-   "c": "Juegos",
+   "n": "Super Famicom SNES en caja con 2 Joysticks",
+   "p": "—",
+   "c": "Consolas",
    "pr": null,
    "tr": null,
    "st": 0,
-   "u": "https://akibastore.mitiendanube.com/productos/crash-3-warped-collectors-edition-ps1-wdtez"
+   "u": "https://akibastore.mitiendanube.com/productos/super-famicom-snes-japomesa-con-2-joysticks-sab5z/"
   },
   {
    "s": "akiba",
-   "n": "Dino Crisis (con demo Resident Evil 3) Americano",
-   "p": "PS1",
-   "c": "Juegos",
+   "n": "Nintendo 64 Japonesa Completa en caja",
+   "p": "—",
+   "c": "Consolas",
    "pr": null,
    "tr": null,
    "st": 0,
-   "u": "https://akibastore.mitiendanube.com/productos/dino-crisis-con-demo-resident-evil-3-americano"
+   "u": "https://akibastore.mitiendanube.com/productos/nintendo-64-japonesa-completa-en-caja-qf8qe/"
   },
   {
    "s": "akiba",
-   "n": "Dino Crisis Japonés",
-   "p": "PS1",
-   "c": "Juegos",
+   "n": "Sega Genesis Model 1 Americans completa",
+   "p": "—",
+   "c": "Consolas",
    "pr": null,
    "tr": null,
    "st": 0,
-   "u": "https://akibastore.mitiendanube.com/productos/dino-crisis-japones"
+   "u": "https://akibastore.mitiendanube.com/productos/sega-genesis-model-1-americans-completa-xxea4/"
+  },
+  {
+   "s": "akiba",
+   "n": "Resident Evil Director’s Cut GH Americano CIB PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 209900.0,
+   "tr": 188910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-directors-cut-gh-americano-impecable/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy IX Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 199900.0,
+   "tr": 179910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-ix-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Rockman X5 con Spine Card Japonés PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 149900.0,
+   "tr": 134910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/rockman-x5-con-spine-card-japones-ps1/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Castlevania Symphony of the Night PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 549900.0,
+   "tr": 494910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/castlevania-symphony-of-the-night-ps1-hcg9x/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy Origins Americano PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 139900.0,
+   "tr": 125910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-origins-americano-ps1-b7cjf/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Resident Evil 2 Americano CIB PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 289900.0,
+   "tr": 260910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-2-americano-ps1-1qzci/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "The Legend of Zelda: Twilight Princess Wii",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 139900.0,
+   "tr": 125910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/the-legend-of-zelda-twilight-princess-wii-xgjmc/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Street Fighter Collection Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 199900.0,
+   "tr": 179910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/street-fighter-collection-americano-edhc3/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Biohazard 2 DualShock con Spine",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 169900.0,
+   "tr": 152910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/biohazard-2-dualshock-con-spine/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Biohazard 2 con Spine",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 129900.0,
+   "tr": 116910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/biohazard-2-con-spine/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Psychic Force Japonés con Spine Card",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 119900.0,
+   "tr": 107910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/psychic-force-japones-con-spine-card/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Rurouni Kenshin RPG Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 89900.0,
+   "tr": 80910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/rurouni-kenshin-rpg-japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Vampire Savior EX Edition (Darkstalkers) Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 189900.0,
+   "tr": 170910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/vampire-savior-ex-edition-darkstalkers-japones/?entry_path=category&entry_category_id=27710599"
   },
   {
    "s": "akiba",
@@ -251,37 +201,37 @@
    "pr": null,
    "tr": null,
    "st": 0,
-   "u": "https://akibastore.mitiendanube.com/productos/vagrant-story-americano-19g7d"
+   "u": "https://akibastore.mitiendanube.com/productos/vagrant-story-americano-19g7d/?entry_path=category&entry_category_id=27710599"
   },
   {
    "s": "akiba",
-   "n": "Super Famicom en caja con 2 joysticks",
-   "p": "SNES",
-   "c": "Consolas",
-   "pr": null,
-   "tr": null,
-   "st": 0,
-   "u": "https://akibastore.mitiendanube.com/productos/super-famicom-snes-japomesa-con-2-joysticks-sab5z"
-  },
-  {
-   "s": "akiba",
-   "n": "Zombies Ate My Neighbors CIB Americano",
-   "p": "Genesis",
+   "n": "Breath of Fire III 3 Americano",
+   "p": "PS1",
    "c": "Juegos",
    "pr": null,
    "tr": null,
    "st": 0,
-   "u": "https://akibastore.mitiendanube.com/productos/zombies-ate-my-neighbors-sega-genesis-cib-americano-144qt"
+   "u": "https://akibastore.mitiendanube.com/productos/breath-of-fire-iii-3-americano-1ofq6/?entry_path=category&entry_category_id=27710599"
   },
   {
    "s": "akiba",
-   "n": "Resident Evil Outbreak Americano",
-   "p": "PS2",
+   "n": "Parasite Eve Americano",
+   "p": "PS1",
    "c": "Juegos",
    "pr": null,
    "tr": null,
    "st": 0,
-   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-outbreak-americano"
+   "u": "https://akibastore.mitiendanube.com/productos/parasite-eve-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy VIII Americano PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-viii-americano-ps1/?entry_path=category&entry_category_id=27710599"
   },
   {
    "s": "akiba",
@@ -291,84 +241,1754 @@
    "pr": null,
    "tr": null,
    "st": 0,
-   "u": "https://akibastore.mitiendanube.com/productos/metal-gear-solid-americano-impecable"
+   "u": "https://akibastore.mitiendanube.com/productos/metal-gear-solid-americano-impecable/?entry_path=category&entry_category_id=27710599"
   },
   {
    "s": "akiba",
-   "n": "8BitDo Arcade Stick inalámbrico (Switch, PC, Steam)",
-   "p": "—",
-   "c": "Accesorios",
+   "n": "Resident Evil 4 PS2 Greatest Hits Impecable",
+   "p": "PS1",
+   "c": "Juegos",
    "pr": null,
    "tr": null,
    "st": 0,
-   "u": "https://akibastore.mitiendanube.com/productos/8bitdo-arcade-stick-switch-pc-steam-inalambrico-nuevo-1cnli"
+   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-4-ps2-greatest-hits-impecable-1cblg/?entry_path=category&entry_category_id=27710599"
   },
   {
-   "s": "amigo",
-   "n": "Metal Gear Solid (Ver. Americana)",
+   "s": "akiba",
+   "n": "Parasite Eve 2 CIB Americano",
    "p": "PS1",
    "c": "Juegos",
-   "pr": 100000,
+   "pr": null,
    "tr": null,
-   "st": 1,
-   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/metal-gear-solid-ver-americana"
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/parasite-eve-2-cib-americano-zqbo9/?entry_path=category&entry_category_id=27710599"
   },
   {
-   "s": "amigo",
-   "n": "El viaje de Chihiro",
-   "p": "—",
-   "c": "VHS y DVD",
-   "pr": 10000,
+   "s": "akiba",
+   "n": "Grand Theft Auto GTA Collectors Edition Ps1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
    "tr": null,
-   "st": 1,
-   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/el-viaje-de-chihiro"
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/grand-theft-auto-gta-collectors-edition-ps1-6ufp3/?entry_path=category&entry_category_id=27710599"
   },
   {
-   "s": "amigo",
-   "n": "Top Kids - Los trucos de los 6 mejores videogames del 94",
-   "p": "—",
-   "c": "VHS y DVD",
-   "pr": 10000,
+   "s": "akiba",
+   "n": "Legend of Dragoon Americano PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
    "tr": null,
-   "st": 1,
-   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/top-kids-los-trucos-de-los-6-mejores-videogames-del-94"
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/legend-of-dragoon-americano-ps1-e45rr/?entry_path=category&entry_category_id=27710599"
   },
   {
-   "s": "amigo",
-   "n": "Transformers La Película (Caras Cartoon)",
-   "p": "—",
-   "c": "VHS y DVD",
-   "pr": 15000,
+   "s": "akiba",
+   "n": "Dino Crisis 2 Americano PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
    "tr": null,
-   "st": 1,
-   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/transformers-la-pelicula-caras-cartoon"
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/dino-crisis-2-americano-ps1-1h86f/?entry_path=category&entry_category_id=27710599"
   },
   {
-   "s": "amigo",
-   "n": "Dragon Ball GT Ep. 8",
-   "p": "—",
-   "c": "VHS y DVD",
-   "pr": 9000,
+   "s": "akiba",
+   "n": "Crash 3 Warped Collector’s Edition PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
    "tr": null,
-   "st": 1,
-   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/dragon-ball-gt-ep-8"
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/crash-3-warped-collectors-edition-ps1-wdtez/?entry_path=category&entry_category_id=27710599"
   },
   {
-   "s": "amigo",
-   "n": "Lote VHS Dragon Ball GT N° 5, 6, 14 y 16",
-   "p": "—",
-   "c": "VHS y DVD",
-   "pr": 35000,
+   "s": "akiba",
+   "n": "Tomb Raider Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
    "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/tomb-raider-japones-r2dym/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "The King of Fighters ‘99 Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/the-king-of-fighters-99-japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Legend of Mana Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/legend-of-mana-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy Chronicles Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-chronicles-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Chrono Cross Americano Impecable",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/chrono-cross-americano-impecable/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Driver 2 Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/driver-2-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Xenogears con Spine Card Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/xenogears-con-spine-card-japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy Tactics CIB Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-tactics-cib-americano-pra3q/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Crash Bash Collector’s Edition PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/crash-bash-collectors-edition-ps1-181x3/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Gran Turismo 2 Americano PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/gran-turismo-2-americano-ps1-gdgzb/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Megaman Legends Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/megaman-legends-americano-54xos/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Need for Speed Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/need-for-speed-americano-1dfh7/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "FIFA ‘98 Americano Impecable",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/fifa-98-americano-impecable-1x4nq/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Soul Edge Japonés con Spine Card",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/soul-edge-japones-con-spine-card-oab7m/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Silent Hill Americano PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/silent-hill-americano-ps1/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Tomb Raider 2 Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/tomb-raider-2-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Need for Speed 3 Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/need-for-speed-3-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Rockman X6 (Megaman X6) Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/rockman-x6-megaman-x6-japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "SaGa Frontier Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/saga-frontier-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Suikoden Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/suikoden-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Resident Evil 3 Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-3-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Dino Crisis (con demo Resident Evil 3) Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/dino-crisis-con-demo-resident-evil-3-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Saga Frontier 2 Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/saga-frontier-2-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Biohazard (Resident Evil) con Spine",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/biohazard-resident-evil-con-spine/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Captain Tsubasa (Konami) Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/captain-tsubasa-konami-japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Vandal Hearts Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/vandal-hearts-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy Anthology Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-anthology-americano1/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Biohazard Director’s Cut Dualskock con Spine",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/biohazard-directors-cut-dualskock-con-spine/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Memory Card PS1 en Blister (Japonesa)",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/memory-card-ps1-en-blister-japonesa/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Memory Card PS1 en caja (Japomesa)",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/memory-card-ps1-en-caja-japomesa/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Biohazard 3 Last Escape (Resident Evil 3)",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/biohazard-3-last-escape-resident-evil-3/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Dino Crisis Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/dino-crisis-japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Tony Hawk Pro Skater 2 Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/tony-hawk-pro-skater-2-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "King of Fighters ‘98 Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/king-of-fighters-98-japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Pocket Fighter Japonés con Spine Card",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/pocket-fighter-japones-con-spine-card/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Legacy of Kain: Soul Reaver Americano Impecable",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/legacy-of-kain-soul-reaver-americano-impecable/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Driver Americano Impecable",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/driver-americano-impecable/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Bushido Blade Americano Impecable",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/bushido-blade-americano-impecable/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Spyro Collector’s Edition Americano Impecable",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/spyro-collectors-edition-americano-impecable/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Gran Turismo Americano Impecable",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/gran-turismo-americano-impecable/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Tekken 3 Impecable con Spine Card PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/tekken-3-impecable-con-spine-card-ps1/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "G Darius japonés con Spine Card",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/g-darius-japones-con-spine-card/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Biohazard Director’s Cut DualShock Japonés PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/biohazard-directors-cut-dualshock-japones-ps1/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Parasite Eve Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/parasite-eve-japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Metal Gear Solid Integral The Best Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/metal-gear-solid-integral-the-best-japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Dead or Alive Japonés con Spine Card",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/dead-or-alive-japones-con-spine-card/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy Anthology Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-anthology-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Policenauts Japonés PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/policenauts-japones-ps1/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Silent Hill Japonés con Spine Card",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/silent-hill-japones-con-spine-card/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Tomb Raider Greatest Hits Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/tomb-raider-greatest-hits-americano/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Street Fighter Zero 3 Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/streetfighterzero3japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Street Fighter Zero 2 Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/streetfighterzero2japones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Street Fighter Collection Japonés",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/streetfightercollectionjapones/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy VIII Americano",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/finalfantasy8americanops1/?entry_path=category&entry_category_id=27710599"
+  },
+  {
+   "s": "akiba",
+   "n": "Metal Gear Solid 3 Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 109900.0,
+   "tr": 98910.0,
    "st": 1,
-   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/lote-vhs-dragon-ball-gt-n-5-6-14-y-16"
+   "u": "https://akibastore.mitiendanube.com/productos/metal-gear-solid-3-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Persona 4 Americano CIB PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 219900.0,
+   "tr": 197910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/persona4/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "PlayStation 2 Slim completa con lente funcional",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 289900.0,
+   "tr": 260910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/playstation-2-slim-completa-con-lente-funcional-1x9pc/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Obscure The Aftermath Americano PS2 CIB",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 299900.0,
+   "tr": 269910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/obscure-the-aftermath-americano-ps2-cib-lfwt9/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Consola PlayStation 2 completa en caja PS2 Silver Japan",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 499900.0,
+   "tr": 449910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/consola-playstation-2-completa-en-caja-ps2-silver-japan-fyiwn/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Valkyrie Profile 2 PS2 CIB Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 189900.0,
+   "tr": 170910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/valkyrie-profile-2-ps2-cib-americano-19i9f/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy X CIB PS2 Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 99900.0,
+   "tr": 89910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-x-cib-ps2-americano-16ld5/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Guilty Gear XX Accent Core CIB PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 129900.0,
+   "tr": 116910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/guilty-gear-xx-accent-core-cib-ps2-m8hjh/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "The King of Fighters Nests CIB PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 169900.0,
+   "tr": 152910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/the-king-of-fighters-nests-cib-ps2-snurx/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "The King of Fighters KOF Orochi PS2 CIB",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 169900.0,
+   "tr": 152910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/the-king-of-fighters-kof-orochi-ps2-cib-1nb5d/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Grand Theft Auto GTA San Andreas PS2 CIB Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 119900.0,
+   "tr": 107910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/grand-theft-auto-gta-san-andreas-ps2-cib-americano-3ebwx/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Vampire Darkstalkers Collection CIB Japonés PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 159900.0,
+   "tr": 143910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/vampire-darkstalkers-collection-cib-japones-ps2-1o4tn/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Persona 3 FES Americano PS2 CIB",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 219900.0,
+   "tr": 197910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/persona-3-fes-americano-ps2-ck9u9/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Clock Tower 3 Japonés PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 119900.0,
+   "tr": 107910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/clock-tower-3-japones-ps2-1groy/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Dawn of Mana PS2 Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 109900.0,
+   "tr": 98910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/dawn-of-mana-ps2-americano-hdyur/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Drakengard 2 Americano PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 299900.0,
+   "tr": 269910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/drakengard-2-americano-ps2-1nw15/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Capcom vs Snk 2 Japonés PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 109900.0,
+   "tr": 98910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/capcom-vs-snk-2-japones-ps2/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Rockman X7 (Megaman X7) Japonés",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 99900.0,
+   "tr": 89910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/rockman-x7-megaman-x7-japones/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy XII",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 99900.0,
+   "tr": 89910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-xii/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy X-2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 99900.0,
+   "tr": 89910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-x-2/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Odin Sphere Americano CIB PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 159900.0,
+   "tr": 143910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/odin-sphere-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Marvel Vs. Capcom 2 Japonés",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 139900.0,
+   "tr": 125910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/marvel-vs-capcom-2-japones/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Xenosaga Ep. 1 Americano CIB PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 209900.0,
+   "tr": 188910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/xenosaga-ep-1-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Robotech Battlecry Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 99900.0,
+   "tr": 89910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/robotech-battlecry-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Street Fighter Alpha Anthology Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 109900.0,
+   "tr": 98910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/street-fighter-alpha-anthology-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Metal Gear Solid Essential Collection PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/metal-gear-solid-essential-collection-ps2/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Resident Evil 4 PS2 Greatest Hits Impecable",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-4-ps2-greatest-hits-impecable-1cblg/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Okami Americano PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/llamo-americano-ps2-1v2du/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Dirge of Cerberus Final Fantasy VII",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/dirge-of-cerberus-final-fantasy-vii-lexkh/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Grand Theft Auto GTA Trilogy PS2 Sellado",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/grand-theft-auto-gta-trilogy-ps2-sellado-hfurp/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Jak 3 Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/jak-3-americano-zdiqr/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Max Payne 2: The Fall of Max Payne Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/max-payne-2-the-fall-of-max-payne-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Grand Theft Auto: Double Pack Impecable",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/grand-theft-auto-double-pack-impecable/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Persona 4 + OST",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/persona-4-ost/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "God of War 2 (2 discos) Excelente Estado",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/god-of-war-2-2-discos-excelente-estado/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Grand Theft Auto GTA San Andreas Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/grand-theft-auto-gta-san-andreas-americano-mdq2a/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Biohazard (Resident Evil) Outbreak File #2 Japonés",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/biohazard-resident-evil-outbreak-file-2-japones/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Silent Hill 3 con Mini OST CIB PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/silent-hill-3-con-mini-ost-cib-ps2-1v80j/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "PlayStation 2 PS2 Slim Silver en caja",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/playstation-2-ps2-slim-silver-en-caja-qjkoj/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Grand Theft Auto GTA Vice City Japonés PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/grand-theft-auto-gta-vice-city-japones-ps2-rajvh/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Valkyrie Profile 2 CIB PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/valkyrie-profile-2-1syx0/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Need for Speed Underground PS2 Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/need-for-speed-underground-ps2-americano-377wi/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "The Warriors PS2 Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/the-warriors-ps2-americano-xfznq/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Macross (Exclusivo Japón) PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/macross-exclusivo-japon-ps2/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Manhunt (Rockstar) Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/manhunt-rockstar-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Rockman X8 (Megaman X8) Japonés",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/rockman-x8-megaman-x8-japones/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Resident Evil Outbreak Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-outbreak-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Initial D Special Stage Japonés",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/initial-d-special-stage-japones/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Shadow of the Colossus Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/shadow-of-the-colossus-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Scarface: The World is Yours",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/scarface-the-world-is-yours/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Devil May Cry 3 Americano CIB PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/devil-may-cry-3-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Grand Theft Auto Liberty City Stories Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/grand-theft-auto-liberty-city-stories-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Grand Theft Auto The Trilogy Impecable",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/grand-theft-auto-the-trilogy-impecable/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Kingdom Hearts Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/kingdom-hearts-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Zone of the Enders: The 2nd Runner",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/zone-of-the-enders-the-2nd-runner/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Silent Hill 2 Americano Impecable",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/silent-hill-2-americano-impecable/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Max Payne Americano PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/max-payne-americano-ps2/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Kingdom Hearts 2 Americano Impecable PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/kingdom-hearts-2-americano-impecable-ps2/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Silent Hill 4 The Room + Mini OST Japonés PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/silent-hill-4-the-room-mini-ost-japones-ps2/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Rumble Roses Japonés PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/rumble-roses-japones-ps2/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Resident Evil 4 Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-4-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Grand Theft Auto Vice City Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/grand-theft-auto-vice-city-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Silent Hill 2 Japonés (Incluye idioma inglés)",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/silent-hill-2-japones-incluye-idioma-ingles/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Capcom Vs SNK 2 Japonés",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/capcom-vs-snk-2-japones/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Devil May Cry The Best (Incluye OST) japonés",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/devil-may-cry-the-best-incluye-ost-japones/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Odin Sphere Japonés",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/odin-sphere-japones/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Dirge of Cerberus Final Fantasy VII Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/dirge-of-cerberus-final-fantasy-vii-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Beyond Good and Evil Americano",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/beyond-good-and-evil-americano/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Winning Eleven 7 International",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/winning-eleven-7-international/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Metal Gear Solid 2: Sons of Liberty",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/metal-gear-solid-2-sons-of-liberty/?entry_path=category&entry_category_id=27710608"
+  },
+  {
+   "s": "akiba",
+   "n": "Metal Gear Solid 4 Guns of the Patriots PS3",
+   "p": "PS3",
+   "c": "Juegos",
+   "pr": 89900.0,
+   "tr": 80910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/metal-gear-solid-4-guns-of-the-patriots-ps3-1xtjd/?entry_path=category&entry_category_id=27777010"
+  },
+  {
+   "s": "akiba",
+   "n": "Catherine Americano PS3",
+   "p": "PS3",
+   "c": "Juegos",
+   "pr": 99900.0,
+   "tr": 89910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/catherine-americano-ps3-13epj/?entry_path=category&entry_category_id=27777010"
+  },
+  {
+   "s": "akiba",
+   "n": "Metal Gear Solid The Legacy Collection PS3",
+   "p": "PS3",
+   "c": "Juegos",
+   "pr": 139900.0,
+   "tr": 125910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/metal-gear-solid-the-legacy-collection-ps3-1fga6/?entry_path=category&entry_category_id=27777010"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy X/X-2 HD Remaster Limited Edition PS3",
+   "p": "PS3",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-x-x-2-hd-remaster-limited-edition-ps3-tdv58/?entry_path=category&entry_category_id=27777010"
+  },
+  {
+   "s": "akiba",
+   "n": "Nier Automata GOTY Sellado PS4",
+   "p": "PS4",
+   "c": "Juegos",
+   "pr": 119900.0,
+   "tr": 107910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/nier-automata-goty-sellado-ps4-183n4/?entry_path=category&entry_category_id=37542096"
+  },
+  {
+   "s": "akiba",
+   "n": "Fatal Fury City of the Wolves PS4 Sellado",
+   "p": "PS4",
+   "c": "Juegos",
+   "pr": 119900.0,
+   "tr": 107910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/fatal-fury-city-of-the-wolves-ps4-sellado-1t0mv/?entry_path=category&entry_category_id=37542096"
+  },
+  {
+   "s": "akiba",
+   "n": "Yakuza Like a Dragon Steelbook PS4",
+   "p": "PS4",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/yakuza-like-a-dragon-steelbook-ps4-1p9nr/?entry_path=category&entry_category_id=37542096"
+  },
+  {
+   "s": "akiba",
+   "n": "Castlevania Dominus Collection PS5 Sellado",
+   "p": "PS5",
+   "c": "Juegos",
+   "pr": 159900.0,
+   "tr": 143910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/castlevania-dominus-collection-ps5-sellado-jpu2y/?entry_path=category&entry_category_id=36378861"
+  },
+  {
+   "s": "akiba",
+   "n": "Fatal Fury City of the Wolves PS4 Sellado",
+   "p": "PS5",
+   "c": "Juegos",
+   "pr": 119900.0,
+   "tr": 107910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/fatal-fury-city-of-the-wolves-ps4-sellado-1t0mv/?entry_path=category&entry_category_id=36378861"
+  },
+  {
+   "s": "akiba",
+   "n": "Resident Evil 2 REmake sellado",
+   "p": "PS5",
+   "c": "Juegos",
+   "pr": 89900.0,
+   "tr": 80910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-2-remake-sellado-sitoz/?entry_path=category&entry_category_id=36378861"
+  },
+  {
+   "s": "akiba",
+   "n": "Death Stranding 2 on the Beach sellado",
+   "p": "PS5",
+   "c": "Juegos",
+   "pr": 139900.0,
+   "tr": 125910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/death-stranding-2-on-the-beach-sellado-isq9a/?entry_path=category&entry_category_id=36378861"
+  },
+  {
+   "s": "akiba",
+   "n": "Elden Ring Nightrein Deluxe Edition sellado",
+   "p": "PS5",
+   "c": "Juegos",
+   "pr": 129900.0,
+   "tr": 116910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/elden-ring-nightrein-deluxe-edition-sellado-1fkr8/?entry_path=category&entry_category_id=36378861"
+  },
+  {
+   "s": "akiba",
+   "n": "Resident Evil VII Biohazard Gold Edition sellado",
+   "p": "PS5",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-vii-biohazard-gold-edition-sellado-199mn/?entry_path=category&entry_category_id=36378861"
+  },
+  {
+   "s": "akiba",
+   "n": "Metal Gear Solid: Portable Ops Plus Deluxe Pack Japonés",
+   "p": "PSP",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/metal-gear-solid-portable-ops-plus-deluxe-pack-japones/?entry_path=category&entry_category_id=27711037"
+  },
+  {
+   "s": "akiba",
+   "n": "The Legend of Zelda: Twilight Princess Wii",
+   "p": "Wii",
+   "c": "Juegos",
+   "pr": 139900.0,
+   "tr": 125910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/the-legend-of-zelda-twilight-princess-wii-xgjmc/?entry_path=category&entry_category_id=27776994"
+  },
+  {
+   "s": "akiba",
+   "n": "Goldeneye 007 Americano CIB N64",
+   "p": "N64",
+   "c": "Juegos",
+   "pr": 279900.0,
+   "tr": 251910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/goldeneye-007-americano-cib-n64-ctz6a/?entry_path=category&entry_category_id=30074208"
+  },
+  {
+   "s": "akiba",
+   "n": "Super Mario 64 CIB Americano",
+   "p": "N64",
+   "c": "Juegos",
+   "pr": 379900.0,
+   "tr": 341910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/super-mario-64-cib-americano-fa5hq/?entry_path=category&entry_category_id=30074208"
+  },
+  {
+   "s": "akiba",
+   "n": "Perfect Dark Americano CIB",
+   "p": "N64",
+   "c": "Juegos",
+   "pr": 289900.0,
+   "tr": 260910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/perfect-dark-americano-cib-9ww0a/?entry_path=category&entry_category_id=30074208"
+  },
+  {
+   "s": "akiba",
+   "n": "Mario Kart 64 CIB Americano",
+   "p": "N64",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/mario-kart-64-cib-americano-17bcl/?entry_path=category&entry_category_id=30074208"
+  },
+  {
+   "s": "akiba",
+   "n": "The Legend of Zelda: Ocarina of Time Japonés",
+   "p": "N64",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/the-legend-of-zelda-ocarina-of-time-japones/?entry_path=category&entry_category_id=30074208"
+  },
+  {
+   "s": "akiba",
+   "n": "Persona 3 Reload Nintendo Switch 2 Sellado",
+   "p": "Switch",
+   "c": "Juegos",
+   "pr": 149900.0,
+   "tr": 134910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/persona-3-reload-nintendo-switch-2-sellado-1msc0/?entry_path=category&entry_category_id=34937209"
+  },
+  {
+   "s": "akiba",
+   "n": "Resident Evil Requiem Switch 2 Deluxe Edition Sellado",
+   "p": "Switch",
+   "c": "Juegos",
+   "pr": 359900.0,
+   "tr": 323910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/resident-evil-requiem-switch-2-deluxe-edition-sellado-1uh0u/?entry_path=category&entry_category_id=34937209"
+  },
+  {
+   "s": "akiba",
+   "n": "Metroid Prime 4 Beyond Sellado",
+   "p": "Switch",
+   "c": "Juegos",
+   "pr": 119900.0,
+   "tr": 107910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/videojuego-metroid-prime-4-beyond-sellado-8n072/?entry_path=category&entry_category_id=34937209"
+  },
+  {
+   "s": "akiba",
+   "n": "Grand Theft Auto The Trilogy GTA Definitive Edition",
+   "p": "Switch",
+   "c": "Juegos",
+   "pr": 109900.0,
+   "tr": 98910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/grand-theft-auto-the-trilogy-gta-definitive-edition-w0qlm/?entry_path=category&entry_category_id=34937209"
+  },
+  {
+   "s": "akiba",
+   "n": "Final Fantasy Í-VI Collection Anniversary Edition",
+   "p": "Switch",
+   "c": "Juegos",
+   "pr": 199900.0,
+   "tr": 179910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/final-fantasy-i-vi-collection-anniversary-edition-wyoi3/?entry_path=category&entry_category_id=34937209"
+  },
+  {
+   "s": "akiba",
+   "n": "8BitDo Arcade Stick Switch PC Steam Inalámbrico Nuevo",
+   "p": "Switch",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/8bitdo-arcade-stick-switch-pc-steam-inalambrico-nuevo-1cnli/?entry_path=category&entry_category_id=34937209"
+  },
+  {
+   "s": "akiba",
+   "n": "Pokémon Legends Arceus",
+   "p": "Switch",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/pokemon-legends-arceus-oo0mf/?entry_path=category&entry_category_id=34937209"
+  },
+  {
+   "s": "akiba",
+   "n": "Nier Automata Nintendo Switch Sellado",
+   "p": "Switch",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/nier-automata-nintendo-switch-sellado-foj54/?entry_path=category&entry_category_id=34937209"
+  },
+  {
+   "s": "akiba",
+   "n": "Darius Gaiden Sega Saturn",
+   "p": "Saturn",
+   "c": "Juegos",
+   "pr": 179900.0,
+   "tr": 161910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/darius-gaiden-sega-saturn-pzonc/?entry_path=category&entry_category_id=29436852"
+  },
+  {
+   "s": "akiba",
+   "n": "Biohazard Japonés Sega Saturn",
+   "p": "Saturn",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/biohazard-japones-sega-saturn/?entry_path=category&entry_category_id=29436852"
+  },
+  {
+   "s": "akiba",
+   "n": "Sega Dreamcast Japonesa ver. Presidente en caja",
+   "p": "Dreamcast",
+   "c": "Juegos",
+   "pr": 699900.0,
+   "tr": 629910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/sega-dreamcast-japonesa-ver-presidente-en-caja-1690j/?entry_path=category&entry_category_id=36926574"
+  },
+  {
+   "s": "akiba",
+   "n": "The King of Fighters 2002 Dreamcast",
+   "p": "Dreamcast",
+   "c": "Juegos",
+   "pr": 129900.0,
+   "tr": 116910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/the-king-of-fighters-2002-dreamcast-ochh6/?entry_path=category&entry_category_id=36926574"
+  },
+  {
+   "s": "akiba",
+   "n": "Marvel vs Capcom 2 Americano Dreamcast",
+   "p": "Dreamcast",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/marvel-vs-capcom-2-americano-dreamcast-19ap3/?entry_path=category&entry_category_id=36926574"
+  },
+  {
+   "s": "akiba",
+   "n": "Arcade Stick Dreamcast HKT-7300",
+   "p": "Dreamcast",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/arcade-stick-dreamcast-hkt-7300-1k0ks/?entry_path=category&entry_category_id=36926574"
+  },
+  {
+   "s": "akiba",
+   "n": "Shadow DancerSega Genesis Americano CIB",
+   "p": "Genesis",
+   "c": "Juegos",
+   "pr": 229900.0,
+   "tr": 206910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/shadow-dancersega-genesis-americano-cib-5x5c2/?entry_path=category&entry_category_id=39548496"
+  },
+  {
+   "s": "akiba",
+   "n": "Sonic & Knuckles Sega Genesis Americano CIB",
+   "p": "Genesis",
+   "c": "Juegos",
+   "pr": 399900.0,
+   "tr": 359910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/sonic-knuckles-sega-genesis-americano-cib-13v67/?entry_path=category&entry_category_id=39548496"
+  },
+  {
+   "s": "akiba",
+   "n": "Streets of Rage 2 Not for Resale Sega Genesis CIB Americano",
+   "p": "Genesis",
+   "c": "Juegos",
+   "pr": 299900.0,
+   "tr": 269910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/streets-of-rage-2-not-for-resale-sega-genesis-cib-americano-voqco/?entry_path=category&entry_category_id=39548496"
+  },
+  {
+   "s": "akiba",
+   "n": "OutRun CIB Americano",
+   "p": "Genesis",
+   "c": "Juegos",
+   "pr": 299900.0,
+   "tr": 269910.0,
+   "st": 1,
+   "u": "https://akibastore.mitiendanube.com/productos/outrun-cib-americano-u2yxb/?entry_path=category&entry_category_id=39548496"
+  },
+  {
+   "s": "akiba",
+   "n": "Zombies Ate My Neighbors Sega Genesis CIB Americano",
+   "p": "Genesis",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/zombies-ate-my-neighbors-sega-genesis-cib-americano-144qt/?entry_path=category&entry_category_id=39548496"
+  },
+  {
+   "s": "akiba",
+   "n": "Mortal Kombat CIB Americano",
+   "p": "Genesis",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/mortal-kombat-cib-americano-1phmo/?entry_path=category&entry_category_id=39548496"
+  },
+  {
+   "s": "akiba",
+   "n": "Streets of Rage CIB Americano",
+   "p": "Genesis",
+   "c": "Juegos",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/streets-of-rage-cib-americano-ph7w8/?entry_path=category&entry_category_id=39548496"
+  },
+  {
+   "s": "akiba",
+   "n": "Demon Slayer Nezuko Kamado Demon Banpresto",
+   "p": "—",
+   "c": "Figuras",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/demon-slayer-nezuko-kamado-demon-banpresto/?entry_path=category&entry_category_id=27711093"
+  },
+  {
+   "s": "akiba",
+   "n": "Demon Slayer Mitsuri Kanroji Banpresto",
+   "p": "—",
+   "c": "Figuras",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/demon-slayer-mitsuri-kanroji-banpresto/?entry_path=category&entry_category_id=27711093"
+  },
+  {
+   "s": "akiba",
+   "n": "Neon Genesis Evangelion Decade OST Limited Edition",
+   "p": "—",
+   "c": "Bandas sonoras",
+   "pr": null,
+   "tr": null,
+   "st": 0,
+   "u": "https://akibastore.mitiendanube.com/productos/neon-genesis-evangelion-decade-ost-limited-edition-r7zzc/?entry_path=category&entry_category_id=41178679"
   },
   {
    "s": "amigo",
    "n": "Tamagotchi 2",
    "p": "Game Boy",
    "c": "Juegos",
-   "pr": 50000,
+   "pr": 50000.0,
    "tr": null,
    "st": 1,
    "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/tamagotchi-2"
@@ -378,50 +1998,1200 @@
    "n": "Dragon Quest Monsters",
    "p": "Game Boy",
    "c": "Juegos",
-   "pr": 50000,
+   "pr": 50000.0,
    "tr": null,
    "st": 1,
    "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/dragon-quest-monsters"
   },
   {
    "s": "amigo",
-   "n": "Sakura Taisen GB: Geki Hanagumi Nyuutai",
-   "p": "Game Boy",
-   "c": "Juegos",
-   "pr": 25000,
-   "tr": null,
-   "st": 1,
-   "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/sakura-taisen-gb-geki-hanagumi-nyuutai"
-  },
-  {
-   "s": "amigo",
    "n": "Meitantei Conan: Giwaku no Gouka Ressha",
    "p": "Game Boy",
    "c": "Juegos",
-   "pr": 20000,
+   "pr": 20000.0,
    "tr": null,
    "st": 0,
    "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/meitantei-conan-giwaku-no-gouka-ressha"
   },
   {
    "s": "amigo",
-   "n": "Golf Japan Course",
-   "p": "Disk System",
+   "n": "Sakura Taisen GB: Geki Hanagumi Nyuutai",
+   "p": "Game Boy",
    "c": "Juegos",
-   "pr": 50000,
+   "pr": 25000.0,
    "tr": null,
    "st": 1,
-   "u": "https://www.tiendadeamigo.com.ar/videojuegos/disk-system/golf-japan-course"
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/sakura-taisen-gb-geki-hanagumi-nyuutai"
+  },
+  {
+   "s": "amigo",
+   "n": "SD Gundam Gaiden Lacroan Heroes - Gameboy",
+   "p": "Game Boy",
+   "c": "Juegos",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/sd-gundam-gaiden-lacroan-heroes-gameboy"
+  },
+  {
+   "s": "amigo",
+   "n": "FIFA Football 2005 - Gameboy Advance (Usado)",
+   "p": "Game Boy",
+   "c": "Juegos",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/fifa-football-2005-gameboy-advance-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Nekketsu Kouha Kunio-Kun: Bangai Rantouhen (Usado) - Gameboy",
+   "p": "Game Boy",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/nekketsu-kouha-kunio-kun-bangai-rantouhen-usado-gameboy"
+  },
+  {
+   "s": "amigo",
+   "n": "Nekketsu Koukou Dodge Ball-Bu )Usado) - Gameboy",
+   "p": "Game Boy",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/nekketsu-koukou-dodge-ball-bu-usado-gameboy"
+  },
+  {
+   "s": "amigo",
+   "n": "Downtown Special Kunio-kun's Historical Period Drama (Usado) - Gameboy",
+   "p": "Game Boy",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/downtown-special-kunio-kuns-historical-period-drama-usado-gameboy"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Mario Land 3: Wario Land - Gameboy",
+   "p": "Game Boy",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/super-mario-land-3-wario-land-gameboy"
+  },
+  {
+   "s": "amigo",
+   "n": "Gameboy Gallery (Usado) - Gameboy",
+   "p": "Game Boy",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/gameboy-gallery-usado-gameboy"
+  },
+  {
+   "s": "amigo",
+   "n": "Power Pro Kun Pocket 2 (Usado) - Gameboy Color",
+   "p": "Game Boy",
+   "c": "Juegos",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/gameboy/power-pro-kun-pocket-2-usado-gameboy-color"
+  },
+  {
+   "s": "amigo",
+   "n": "Family Stadium - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/family-stadium-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "City Adventure Touch - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/city-adventure-touch-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Arabian Dream Scheherazade - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/arabian-dream-scheherazade-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Baseball - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/baseball-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Golf - Famicom (usado)",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/golf-famicom-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Deep Dungeon III - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/deep-dungeon-iii-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Yamamura Misa Suspense - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/yamamura-misa-suspense-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Sanma no Meitantei - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/sanma-no-meitantei-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Momotarou Deentetsu - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/momotarou-deentetsu-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Mappy Land - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/mappy-land-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "The Portopia Serial Murder Case - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 25000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/the-portopia-serial-murder-case-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Tantei Jiguji Saburou - Famicom",
+   "p": "Famicom",
+   "c": "Juegos",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/famicom/tantei-jiguji-saburou-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Quest VI - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 90000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/dragon-quest-vi-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Donkey Kong - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 90000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/super-donkey-kong-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Quest V - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/dragon-quest-v-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Fatal Fury - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/fatal-fury-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Romancing SaGa 2 - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/romancing-saga-2-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Street Fighter II - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/super-street-fighter-ii-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Akagawa Jirou: Majo-tachi no Nemuri - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/akagawa-jirou-majo-tachi-no-nemuri-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Gakkou de Atta Kowai Hanashi - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/gakkou-de-atta-kowai-hanashi-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Momotarou Dentetsu III - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/super-momotarou-dentetsu-iii-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Zero4 Champ RR - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/zero4-champ-rr-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Super Famista 3 - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 25000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/super-famista-3-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Jikkyou Powerful Pro Yakyu 2 - Super Famicom",
+   "p": "Super Famicom",
+   "c": "Juegos",
+   "pr": 25000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/super-famicom/jikkyou-powerful-pro-yakyu-2-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Metal Gear Solid (Ver. Americana)",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 100000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/metal-gear-solid-ver-americana"
+  },
+  {
+   "s": "amigo",
+   "n": "Star Ocean: The Second Story - PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/star-ocean-the-second-story-ps1"
+  },
+  {
+   "s": "amigo",
+   "n": "Final Fantasy IX - PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/final-fantasy-ix-ps1"
+  },
+  {
+   "s": "amigo",
+   "n": "Crash Bandicoot 2 (Usado) - PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 70000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/crash-bandicoot-2-usado-ps1"
+  },
+  {
+   "s": "amigo",
+   "n": "Battle Arena Toshinden (con obi) - PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 70000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/battle-arena-toshinden-con-obi-ps1"
+  },
+  {
+   "s": "amigo",
+   "n": "Battle Arena Toshinden 2 (Usado) - PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/battle-arena-toshinden-2-usado-ps1"
+  },
+  {
+   "s": "amigo",
+   "n": "Battle Arena Toshinden (Usado) - PS1",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/battle-arena-toshinden-usado-ps1"
+  },
+  {
+   "s": "amigo",
+   "n": "Wild Arms - PS1 (Usado)",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 70000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/wild-arms-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Nobunaga Hiroku (Superlite 1500) - PS1 (Usado)",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 15000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/nobunaga-hiroku-superlite-1500-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "SD Gundam G Century - PS1 (Usado)",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/sd-gundam-g-century-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "SD Gundam G Generation - PS1 (Usado)",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 70000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/sd-gundam-g-generation-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Jumbo - PS1 (Usado)",
+   "p": "PS1",
+   "c": "Juegos",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-1/jumbo-ps1-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball Z 2 (Budokai 2) - PS2",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-2/dragon-ball-z-2-budokai-2-ps2"
+  },
+  {
+   "s": "amigo",
+   "n": "Tokimeki Memorial 3- PS2 (Usado)",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-2/tokimeki-memorial-3-ps2-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Every s body Golf 3 - PS2 (Usado)",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 15000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-2/every-s-body-golf-3-ps2-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Tales of Rebirth - Ps2 (Usado)",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-2/tales-of-rebirth-ps2-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Genso Suikoden IV - PS2 (Usado)",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-2/genso-suikoden-iv-ps2-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball Z - Ps2 (Usado)",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 55000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-2/dragon-ball-z-ps2-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Quest Viii - Ps2 (Usado)",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-2/dragon-quest-viii-ps2-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Samurai (way Of The Samurai) - Ps2 (Usado)",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-2/samurai-way-of-the-samurai-ps2-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Kessen - Ps2 (Usado)",
+   "p": "PS2",
+   "c": "Juegos",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-2/kessen-ps2-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Battlefield 4 - PS3 (Usado)",
+   "p": "PS3",
+   "c": "Juegos",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-3/battlefield-4-ps3-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Battlefield 3 - PS3 (Usado)",
+   "p": "PS3",
+   "c": "Juegos",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-3/battlefield-3-ps3-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "FIFA 2012 - PS3 (Usado)",
+   "p": "PS3",
+   "c": "Juegos",
+   "pr": 15000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-3/fifa-2012-ps3-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "COD Modern Warfare 3 - PS3 (Usado)",
+   "p": "PS3",
+   "c": "Juegos",
+   "pr": 20000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-3/cod-modern-warfare-3-ps3-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Fifa Soccer 13 - Ps3 (Usado)",
+   "p": "PS3",
+   "c": "Juegos",
+   "pr": 15000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-3/fifa-soccer-13-ps3-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Ghost of Tsushima - PS4 (Usado)",
+   "p": "PS4",
+   "c": "Juegos",
+   "pr": 80000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/playstation-4/ghost-of-tsushima-ps4-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Doraemon Nobita to Mittsu no seireiseki - N64 (Usado)",
+   "p": "N64",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/nintendo-64/doraemon-nobita-to-mittsu-no-seireiseki-n64-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Ganbare Goemon: Neo Momoyama Bakufu no Odori - Nintendo 64 (Usado)",
+   "p": "N64",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/nintendo-64/ganbare-goemon-neo-momoyama-bakufu-no-odori-nintendo-64-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Baku Bomberman - Nintendo 64 (Usado)",
+   "p": "N64",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/nintendo-64/baku-bomberman-nintendo-64-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Star Wars: Shadows of the Empire - Nintendo 64 (Usado)",
+   "p": "N64",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/nintendo-64/star-wars-shadows-of-the-empire-nintendo-64-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "F1:World Grand Prix - Nintendo 64 (Usado)",
+   "p": "N64",
+   "c": "Juegos",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/nintendo-64/f1world-grand-prix-nintendo-64-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Consola Xbox 360",
+   "p": "Xbox",
+   "c": "Juegos",
+   "pr": 280000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/xbox/consola-xbox-360"
+  },
+  {
+   "s": "amigo",
+   "n": "Sakura Wars Teigeki Graph - Saturn (Usado)",
+   "p": "Saturn",
+   "c": "Juegos",
+   "pr": 70000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/sega-saturn/sakura-wars-teigeki-graph-saturn-usado"
   },
   {
    "s": "amigo",
    "n": "Famicom Grand Prix II: 3D Hot Rally",
    "p": "Disk System",
    "c": "Juegos",
-   "pr": 50000,
+   "pr": 50000.0,
    "tr": null,
    "st": 0,
    "u": "https://www.tiendadeamigo.com.ar/videojuegos/disk-system/famicom-grand-prix-ii-3d-hot-rally"
+  },
+  {
+   "s": "amigo",
+   "n": "Golf Japan Course",
+   "p": "Disk System",
+   "c": "Juegos",
+   "pr": 50000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/videojuegos/disk-system/golf-japan-course"
+  },
+  {
+   "s": "amigo",
+   "n": "Artbook X-men The Art And Making Of The Animated Series",
+   "p": "—",
+   "c": "Artbooks",
+   "pr": 120000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/artbooks/artbook-x-men-the-art-and-making-of-the-animated-series"
+  },
+  {
+   "s": "amigo",
+   "n": "Artbook The Art Of Pocket Monster Special (Usado)",
+   "p": "—",
+   "c": "Artbooks",
+   "pr": 80000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/artbooks/artbook-the-art-of-pocket-monster-special-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Artbook-guía Do Kyu Sei 2 (Usado)",
+   "p": "—",
+   "c": "Artbooks",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/artbooks/artbook-guia-do-kyu-sei-2-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Artbook Oh My Goddess! 'evidence Of Existence' (Usado)",
+   "p": "—",
+   "c": "Artbooks",
+   "pr": 90000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/artbooks/artbook-oh-my-goddess-evidence-of-existence-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Artbook Street Fighter 2 - Asia International Fan Works (Usado)",
+   "p": "—",
+   "c": "Artbooks",
+   "pr": 130000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/artbooks/artbook-street-fighter-2-asia-international-fan-works-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Lote figuritas Dragon Ball GT (8 figus)",
+   "p": "—",
+   "c": "Coleccionables",
+   "pr": 1500.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/coleccionables/lote-figuritas-dragon-ball-gt-8-figus"
+  },
+  {
+   "s": "amigo",
+   "n": "Lote figuritas Dragon Ball Z 5 (7 figus)",
+   "p": "—",
+   "c": "Coleccionables",
+   "pr": 1500.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/coleccionables/lote-figuritas-dragon-ball-z-5-7-figus"
+  },
+  {
+   "s": "amigo",
+   "n": "Lote Figuritas Dragin Ball Z Edicion Aniversario (10 figus)",
+   "p": "—",
+   "c": "Coleccionables",
+   "pr": 2000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/coleccionables/lote-figuritas-dragin-ball-z-edicion-aniversario-10-figus"
+  },
+  {
+   "s": "amigo",
+   "n": "Lote Figuritas Dragin Ball Z Edicion Aniversario (30 figus)",
+   "p": "—",
+   "c": "Coleccionables",
+   "pr": 6000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/coleccionables/lote-figuritas-dragin-ball-z-edicion-aniversario-30-figus"
+  },
+  {
+   "s": "amigo",
+   "n": "Lote Figuritas Dragon Ball Gt - Navarrete Dragon Ball Gt (Usado)",
+   "p": "—",
+   "c": "Coleccionables",
+   "pr": 3000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/coleccionables/lote-figuritas-dragon-ball-gt-navarrete-dragon-ball-gt-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Lote De Figuritas Dragon Ball Z 5 - Navarrete Dragon Ball Z (Usado)",
+   "p": "—",
+   "c": "Coleccionables",
+   "pr": 5000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/coleccionables/lote-de-figuritas-dragon-ball-z-5-navarrete-dragon-ball-z-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Pack Figuritas Caballeros Del Zodiaco Navarrete 2004 Varios Otro (Usado)",
+   "p": "—",
+   "c": "Coleccionables",
+   "pr": 5000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/coleccionables/pack-figuritas-caballeros-del-zodiaco-navarrete-2004-varios-otro-usado"
+  },
+  {
+   "s": "amigo",
+   "n": "Manga Zone N 13",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 5000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/manga-zone-n-13"
+  },
+  {
+   "s": "amigo",
+   "n": "Minami 2000 N 9",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 5000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/minami-2000-n-9"
+  },
+  {
+   "s": "amigo",
+   "n": "GUNNM Last Order  #8",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/gunnm-last-order-8"
+  },
+  {
+   "s": "amigo",
+   "n": "GUNNM Last Order  #7",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/gunnm-last-order-7"
+  },
+  {
+   "s": "amigo",
+   "n": "GUNNM Last Order  #6",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/gunnm-last-order-6"
+  },
+  {
+   "s": "amigo",
+   "n": "GUNNM Last Order  #5",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/gunnm-last-order-5"
+  },
+  {
+   "s": "amigo",
+   "n": "GUNNM Last Order  #4",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/gunnm-last-order-4"
+  },
+  {
+   "s": "amigo",
+   "n": "GUNNM Last Order  #3",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/gunnm-last-order-3"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #12",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-12"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #11",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-11"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #10",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-10"
+  },
+  {
+   "s": "amigo",
+   "n": "Yakuza Amo de casa #9",
+   "p": "—",
+   "c": "Manga, cómics y revistas",
+   "pr": 4000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/manga-comic-y-revistas/yakuza-amo-de-casa-9"
+  },
+  {
+   "s": "amigo",
+   "n": "Cable de carga PS3 (con filtro)",
+   "p": "—",
+   "c": "Accesorios",
+   "pr": 8000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/accesorios/cable-de-carga-ps3-con-filtro"
+  },
+  {
+   "s": "amigo",
+   "n": "Cable de carga PS4 (con filtro)",
+   "p": "—",
+   "c": "Accesorios",
+   "pr": 8000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/accesorios/cable-de-carga-ps4-con-filtro"
+  },
+  {
+   "s": "amigo",
+   "n": "Cargador original Super Famicom 110v",
+   "p": "—",
+   "c": "Accesorios",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/accesorios/cargador-original-super-famicom-110v"
+  },
+  {
+   "s": "amigo",
+   "n": "Cable AV Playstation",
+   "p": "—",
+   "c": "Accesorios",
+   "pr": 25000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/accesorios/cable-av-playstation"
+  },
+  {
+   "s": "amigo",
+   "n": "Cable AV Super Famicom",
+   "p": "—",
+   "c": "Accesorios",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/accesorios/cable-av-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Kinect - XBOX360",
+   "p": "—",
+   "c": "Accesorios",
+   "pr": 110000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/accesorios/kinect-xbox360"
+  },
+  {
+   "s": "amigo",
+   "n": "Derivador de señal RCA 3x1",
+   "p": "—",
+   "c": "Accesorios",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/accesorios/derivador-de-senal-rca-3x1"
+  },
+  {
+   "s": "amigo",
+   "n": "Joystick Super Famicom",
+   "p": "—",
+   "c": "Accesorios",
+   "pr": 40000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/accesorios/joystick-super-famicom"
+  },
+  {
+   "s": "amigo",
+   "n": "Consola portatil X6",
+   "p": "—",
+   "c": "Consolas de emulación",
+   "pr": 100000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/consolas-de-emulacion/consola-portatil-x6"
+  },
+  {
+   "s": "amigo",
+   "n": "Consola portatil con joystick SUP 400 en 1",
+   "p": "—",
+   "c": "Consolas de emulación",
+   "pr": 30000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/consolas-de-emulacion/consola-portatil-con-joystick-sup-400-en-1"
+  },
+  {
+   "s": "amigo",
+   "n": "Consola portatil SUP 400 en 1",
+   "p": "—",
+   "c": "Consolas de emulación",
+   "pr": 25000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/consolas-de-emulacion/consola-portatil-sup-400-en-1"
+  },
+  {
+   "s": "amigo",
+   "n": "Figura DBZ Match Makers - S. Goku",
+   "p": "—",
+   "c": "Figuras",
+   "pr": 60000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/figuras/figura-dbz-match-makers-s-goku"
+  },
+  {
+   "s": "amigo",
+   "n": "Urusei Yatsura 3: Remember My Love",
+   "p": "—",
+   "c": "Vinilos",
+   "pr": 100000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vinilos-lp-ep/urusei-yatsura-3-remember-my-love"
+  },
+  {
+   "s": "amigo",
+   "n": "Emeraldus II (Drama)",
+   "p": "—",
+   "c": "Vinilos",
+   "pr": 100000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vinilos-lp-ep/emeraldus-ii-drama"
+  },
+  {
+   "s": "amigo",
+   "n": "El viaje de Chihiro",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 0,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/el-viaje-de-chihiro"
+  },
+  {
+   "s": "amigo",
+   "n": "Top Kids - Los trucos de los 6 mejores videogames del 94",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 10000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/top-kids-los-trucos-de-los-6-mejores-videogames-del-94"
+  },
+  {
+   "s": "amigo",
+   "n": "Transformers La Película (Caras Cartoon)",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 15000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/transformers-la-pelicula-caras-cartoon"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball GT Ep. 8",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 9000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/dragon-ball-gt-ep-8"
+  },
+  {
+   "s": "amigo",
+   "n": "Lote VHS Dragon Ball GT N  5, 6, 14 y 16",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 35000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/lote-vhs-dragon-ball-gt-n-5-6-14-y-16"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball Z Colección de oro N 5 La leyenda del dragon Shenron",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 16000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/dragon-ball-z-coleccion-de-oro-n-5-la-leyenda-del-dragon-shenron"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball Z Colección 2000 N 5 El combate final",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 16000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/dragon-ball-z-coleccion-2000-n-5-el-combate-final"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball GT 5 (Episodios 13, 14 y 15)",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 14000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/dragon-ball-gt-5-episodios-13-14-y-15"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball GT 6 (Episodios 16, 17 y 18)",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 15000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/dragon-ball-gt-6-episodios-16-17-y-18"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball GT 14 (Episodios 40, 41 y 42)",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 15000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/dragon-ball-gt-14-episodios-40-41-y-42"
+  },
+  {
+   "s": "amigo",
+   "n": "Dragon Ball GT 16 (Episodios 46, 47 y 48)",
+   "p": "—",
+   "c": "VHS y DVD",
+   "pr": 15000.0,
+   "tr": null,
+   "st": 1,
+   "u": "https://www.tiendadeamigo.com.ar/vhs-y-dvd/dragon-ball-gt-16-episodios-46-47-y-48"
   }
  ]
 }
