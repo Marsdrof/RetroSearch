@@ -7,6 +7,9 @@ Uso:
                                     # y muestra cuántos productos detecta
 """
 import datetime
+import gzip
+import html
+import urllib.parse
 import json
 import re
 import sys
@@ -20,6 +23,7 @@ OUT = Path(__file__).with_name("productos.json")
 UA = "Mozilla/5.0 (compatible; MetabuscadorRetro/1.0; uso personal)"
 DELAY = 1.5      # segundos entre pedidos, para no cargar a las tiendas
 MAX_PAGES = 60   # tope de seguridad por categoría
+MAX_EXTRA = 400  # tope de páginas sueltas a revisar por tienda en la pasada del sitemap
 PRICE_RE = re.compile(r"\$\s*([\d\.]+(?:,\d{1,2})?)")
 
 # Cada categoría: (ruta, categoría que se muestra, plataforma o "—")
@@ -28,6 +32,8 @@ STORES = [
     {
         "id": "akiba", "name": "Akiba Retro Game Store", "short": "Akiba",
         "base": "https://akibastore.mitiendanube.com", "kind": "tiendanube",
+        "sitemap": "https://akibastore.mitiendanube.com/sitemap.xml",
+        "product_re": r"^https?://akibastore\.mitiendanube\.com/productos/[^/]+/?$",
         "categories": [
             ("/videojuegos/consolas/", "Consolas", "—"),
             ("/videojuegos/playstation/", "Juegos", "PS1"),
@@ -50,6 +56,8 @@ STORES = [
     {
         "id": "amigo", "name": "Tienda de Amigo", "short": "Tienda de Amigo",
         "base": "https://www.tiendadeamigo.com.ar", "kind": "empretienda",
+        "sitemap": "https://tiendadeamigo.com.ar/sitemap.xml",
+        "product_re": None,
         "categories": [
             ("/videojuegos/gameboy", "Juegos", "Game Boy"),
             ("/videojuegos/famicom", "Juegos", "Famicom"),
@@ -161,6 +169,136 @@ def parse_tiendanube(soup, base):
     return items
 
 
+def key(u):
+    return urllib.parse.urlparse(u).path.rstrip("/")
+
+
+def fetch_text(url):
+    r = session.get(url, timeout=30)
+    r.raise_for_status()
+    data = r.content
+    if data[:2] == b"\x1f\x8b":          # sitemap comprimido (.gz)
+        data = gzip.decompress(data)
+    return data.decode("utf-8", "replace")
+
+
+def sitemap_urls(url, depth=0):
+    # Devuelve todas las URLs de un sitemap (entrando a los sitemaps anidados, menos el del blog).
+    try:
+        text = fetch_text(url)
+    except Exception as e:
+        print(f"  ! sitemap {url}: {e}")
+        return []
+    out = []
+    for loc in re.findall(r"<loc>\s*(.*?)\s*</loc>", text, re.S):
+        loc = html.unescape(loc)
+        if re.search(r"\.xml(\.gz)?/?$", loc):
+            if depth < 2 and "blog" not in loc:
+                time.sleep(DELAY)
+                out += sitemap_urls(loc, depth + 1)
+        else:
+            out.append(loc)
+    return out
+
+
+PLATFORMS = [(r"\bps1\b", "PS1"), (r"\bps2\b", "PS2"), (r"\bps3\b", "PS3"), (r"\bps4\b", "PS4"),
+             (r"\bps5\b", "PS5"), (r"\bpsp\b", "PSP"), (r"\bn64\b|nintendo 64", "N64"),
+             (r"saturn", "Saturn"), (r"dreamcast", "Dreamcast"), (r"genesis|megadrive", "Genesis"),
+             (r"switch", "Switch"), (r"gamecube", "GameCube"), (r"\bwii\b", "Wii"),
+             (r"game ?boy", "Game Boy")]
+
+
+def guess_platform(text):
+    t = " " + text.lower().replace("-", " ") + " "
+    for pat, name in PLATFORMS:
+        if re.search(pat, t):
+            return name
+    return "—"
+
+
+def parse_product_page(url):
+    # Lee una página de producto suelta. Devuelve None si la página no es un producto.
+    try:
+        r = session.get(url, timeout=30)
+    except requests.RequestException:
+        return None
+    if r.status_code != 200:
+        return None
+    soup = BeautifulSoup(r.text, "html.parser")
+    name, price, stock = None, None, 1
+    for tag in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(tag.string or "")
+        except ValueError:
+            continue
+        for d in (data if isinstance(data, list) else [data]):
+            nodes = d.get("@graph", [d]) if isinstance(d, dict) else []
+            for g in nodes:
+                if isinstance(g, dict) and g.get("@type") == "Product":
+                    name = g.get("name") or name
+                    offers = g.get("offers")
+                    if isinstance(offers, list):
+                        offers = offers[0] if offers else {}
+                    if isinstance(offers, dict):
+                        try:
+                            price = float(offers.get("price") or offers.get("lowPrice"))
+                        except (TypeError, ValueError):
+                            pass
+                        if "OutOfStock" in str(offers.get("availability", "")):
+                            stock = 0
+    if not name:
+        og = soup.find("meta", property="og:type")
+        if not (og and og.get("content") == "product"):
+            return None
+        t = soup.find("meta", property="og:title")
+        name = t.get("content") if t else None
+        for prop in ("product:price:amount", "og:price:amount"):
+            m = soup.find("meta", property=prop)
+            if m and m.get("content"):
+                try:
+                    price = float(m["content"])
+                except ValueError:
+                    pass
+    if not name:
+        return None
+    if soup.select_one(".label-soldout") or not price:
+        stock = 0
+    if not stock:
+        price = None
+    return {"n": name.strip(), "pr": price, "st": stock}
+
+
+def completar_con_sitemap(store, found, debug=False):
+    # Control de cobertura: compara lo encontrado por categorías con el sitemap de la tienda.
+    base = store["base"]
+    skip = {key(base + p) for p, _, _ in store["categories"]} | {"", "/productos", "/contacto"}
+    rx = re.compile(store["product_re"]) if store.get("product_re") else None
+    in_map = {}
+    for u in sitemap_urls(store["sitemap"]):
+        k = key(u)
+        if k in skip or (rx and not rx.match(u)):
+            continue
+        in_map.setdefault(k, u)
+    known = {key(u) for u in found}
+    missing = [u for k, u in in_map.items() if k not in known]
+    print(f"  Sitemap: {len(in_map)} páginas candidatas, {len(in_map) - len(missing)} ya cubiertas "
+          f"por las categorías, {len(missing)} faltaban")
+    if debug or not missing:
+        return
+    added = 0
+    for u in missing[:MAX_EXTRA]:
+        p = parse_product_page(u)
+        time.sleep(DELAY)
+        if not p:
+            continue
+        found[u] = {"s": store["id"], "n": p["n"], "p": guess_platform(p["n"] + " " + u), "c": "Otros",
+                    "pr": p["pr"], "tr": None, "st": p["st"], "u": u}
+        added += 1
+    rest = len(missing) - MAX_EXTRA
+    extra = f" ({rest} quedaron sin revisar por el tope)" if rest > 0 else ""
+    print(f"  Sitemap: {added} productos agregados{extra}")
+
+
 def crawl_store(store, debug=False):
     parser = parse_tiendanube if store["kind"] == "tiendanube" else parse_empretienda
     base, found = store["base"], {}
@@ -196,6 +334,7 @@ def crawl_store(store, debug=False):
         print(f"  {cat} / {plat}: {len(seen_here)} productos")
         if debug:
             break          # en modo debug solo la primera categoría
+    completar_con_sitemap(store, found, debug)
     return list(found.values())
 
 
