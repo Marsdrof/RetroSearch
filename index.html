@@ -69,14 +69,15 @@ select{font:inherit;padding:8px 10px;border:1.5px solid var(--line);border-radiu
   <div class="count" id="count" aria-live="polite"></div>
   <div class="head" role="row"><span>Tienda</span><span>Producto</span><span>Plataforma</span><span>Precio</span><span></span></div>
   <div id="list"></div>
+  <div style="text-align:center;margin-top:14px"><button id="more" class="go" style="display:none;border:0;cursor:pointer;font:inherit">Mostrar más</button></div>
   <p class="note">Precios en pesos argentinos, actualizados por última vez el <span id="upd">…</span>. Pueden cambiar y el stock se agota rápido: confirmá en la tienda antes de comprar. Cuando una tienda ofrece descuento por transferencia, se muestra debajo del precio de lista.</p>
 </div>
 <script>
-let D=[],S={};const COL=["var(--a)","var(--t)","var(--accent)","var(--good)"];
+let D=[],S={},limit=200;const COL=["var(--a)","var(--t)","var(--accent)","var(--good)"];
 const $=id=>document.getElementById(id),fmt=n=>"$"+n.toLocaleString("es-AR"),norm=s=>s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
 const fill=(el,vals)=>vals.forEach(v=>{const o=document.createElement("option");o.value=o.textContent=v;el.appendChild(o)});
 function setup(j){
-  j.stores.forEach((s,i)=>S[s.id]={n:s.name,short:s.short,c:COL[i%COL.length]});
+  j.stores.forEach((s,i)=>S[s.id]={n:s.name,short:s.short,c:`hsl(${(i*67+12)%360} 62% 46%)`});
   D=j.items.map(d=>({...d,g:norm(d.n).replace(/[^a-z0-9]/g,"")}));
   $("stores").innerHTML=j.stores.map(s=>`<label class="chip" style="--c:${S[s.id].c}"><input type="checkbox" data-s="${s.id}" checked><i></i>${esc(s.name)}</label>`).join("");
   fill($("cat"),[...new Set(D.map(d=>d.c))].sort());
@@ -90,19 +91,22 @@ function render(){
   const cat=$("cat").value,plat=$("plat").value,only=$("stock").checked,so=$("sort").value;
   // el más barato de cada producto presente en 2 o más tiendas con stock
   const best={};
-  D.filter(d=>d.g&&d.st).forEach(d=>{(best[d.g]=best[d.g]||[]).push(d)});
+  D.filter(d=>d.g&&d.st&&d.pr).forEach(d=>{(best[d.g]=best[d.g]||[]).push(d)});
   const cheapest=new Set(Object.values(best).filter(a=>a.length>1&&new Set(a.map(x=>x.s)).size>1).map(a=>a.reduce((m,x)=>x.pr<m.pr?x:m)));
   let r=D.filter(d=>on.includes(d.s)&&(!cat||d.c===cat)&&(!plat||d.p===plat)&&(!only||d.st)&&(!q||q.split(/\s+/).every(w=>norm(d.n+" "+d.p).includes(w))));
   r.sort((a,b)=>(b.st-a.st)||(so==="name"?a.n.localeCompare(b.n,"es"):so==="desc"?(b.pr??0)-(a.pr??0):(a.pr??1e12)-(b.pr??1e12)));
-  $("count").textContent=r.length+(r.length===1?" producto":" productos");
+  const total=r.length;r=r.slice(0,limit);
+  $("count").textContent=total+(total===1?" producto":" productos")+(total>limit?" (mostrando "+limit+")":"");
+  $("more").style.display=total>limit?"inline-block":"none";
   $("list").innerHTML=r.length?r.map(d=>`<div class="row${d.st?"":" out"}">
     <div class="store" style="--c:${S[d.s].c}"><i></i>${esc(S[d.s].short)}</div>
     <div class="nm"><div class="name">${esc(d.n)}${cheapest.has(d)?'<span class="tag">Más barato</span>':""}</div><div class="meta">${d.c}</div></div>
     <div class="pl meta">${d.p==="—"?"":d.p}</div>
-    <div class="pc">${d.st?`<div class="price">${fmt(d.pr)}</div>${d.tr?`<div class="tr">${fmt(d.tr)} por transferencia</div>`:""}`:'<div class="meta">Sin stock</div>'}</div>
+    <div class="pc">${d.st&&!d.pr?'<div class="meta">Consultar precio</div>':d.st?`<div class="price">${fmt(d.pr)}</div>${d.tr?`<div class="tr">${fmt(d.tr)} por transferencia</div>`:""}`:'<div class="meta">Sin stock</div>'}</div>
     <div class="act"><a class="go" href="${d.u}" target="_blank" rel="noopener">Ver en tienda</a></div></div>`).join(""):'<div class="empty">No hay productos con esos filtros. Probá con otra búsqueda o desactivá “Solo con stock”.</div>';
 }
-["input","change"].forEach(e=>document.addEventListener(e,render));
+["input","change"].forEach(e=>document.addEventListener(e,()=>{limit=200;render()}));
+$("more").addEventListener("click",()=>{limit+=200;render()});
 fetch("productos.json").then(r=>r.json()).then(j=>{setup(j);render()}).catch(()=>{$("list").innerHTML='<div class="empty">No se pudo cargar productos.json.</div>'});
 </script>
 </body>
