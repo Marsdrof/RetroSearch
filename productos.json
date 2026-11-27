@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:19:54+00:00",
+ "updated": "2026-11-27T18:02:38+00:00",
  "stores": [
   {
    "id": "akiba",
@@ -1985,10 +1985,10 @@
   },
   {
    "s": "akiba",
-   "n": "PlayStation 2 Slim completa con lente funcional",
+   "n": "Sonic & Knuckles Sega Genesis Americano CIB",
    "p": "PS2",
    "c": "Otros",
-   "pr": 289900.0,
+   "pr": 399900.0,
    "tr": null,
    "st": 1,
    "u": "https://akibastore.mitiendanube.com/productos/neo-geo-battle-colliseum-americano-ps2-19b7u/"
@@ -2710,7 +2710,7 @@
    "c": "Juegos",
    "pr": 50000.0,
    "tr": null,
-   "st": 1,
+   "st": 0,
    "u": "https://www.tiendadeamigo.com.ar/videojuegos/disk-system/golf-japan-course"
   },
   {
