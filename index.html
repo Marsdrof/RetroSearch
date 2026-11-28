@@ -57,7 +57,6 @@ select{font:inherit;padding:8px 10px;border:1.5px solid var(--line);border-radiu
   <input id="q" class="search" type="search" placeholder="Buscar por nombre: Resident Evil, Dreamcast, Game Boy…" aria-label="Buscar productos">
   <div class="bar" id="stores"></div>
   <div class="bar">
-    <select id="cat" aria-label="Categoría"><option value="">Todas las categorías</option></select>
     <select id="plat" aria-label="Plataforma"><option value="">Todas las plataformas</option></select>
     <select id="sort" aria-label="Ordenar">
       <option value="asc">Precio: menor a mayor</option>
@@ -70,6 +69,7 @@ select{font:inherit;padding:8px 10px;border:1.5px solid var(--line);border-radiu
   <div class="head" role="row"><span>Tienda</span><span>Producto</span><span>Plataforma</span><span>Precio</span><span></span></div>
   <div id="list"></div>
   <div style="text-align:center;margin-top:14px"><button id="more" class="go" style="display:none;border:0;cursor:pointer;font:inherit">Mostrar más</button></div>
+  <details id="cov" class="note"></details>
   <p class="note">Precios en pesos argentinos, actualizados por última vez el <span id="upd">…</span>. Pueden cambiar y el stock se agota rápido: confirmá en la tienda antes de comprar. Cuando una tienda ofrece descuento por transferencia, se muestra debajo del precio de lista.</p>
 </div>
 <script>
@@ -80,27 +80,33 @@ function setup(j){
   j.stores.forEach((s,i)=>S[s.id]={n:s.name,short:s.short,c:`hsl(${(i*67+12)%360} 62% 46%)`});
   D=j.items.map(d=>({...d,g:norm(d.n).replace(/[^a-z0-9]/g,"")}));
   $("stores").innerHTML=j.stores.map(s=>`<label class="chip" style="--c:${S[s.id].c}"><input type="checkbox" data-s="${s.id}" checked><i></i>${esc(s.name)}</label>`).join("");
-  fill($("cat"),[...new Set(D.map(d=>d.c))].sort());
   fill($("plat"),[...new Set(D.map(d=>d.p).filter(p=>p!=="—"))].sort());
+  const st=j.stats||{};
+  $("cov").innerHTML="<summary>Cobertura por tienda (control contra el sitemap)</summary>"+j.stores.map(s=>{
+    const x=st[s.id];
+    if(!x)return "<div>"+esc(s.name)+": sin datos de control</div>";
+    const warn=!x.sitemap||x.sin_leer>0||x.otros>x.sitemap*0.05;
+    return "<div>"+(warn?"⚠ ":"✓ ")+esc(s.name)+": "+x.total+" productos"+(x.en_stock!=null?" ("+x.en_stock+" con stock)":"")+"; el sitemap lista "+x.sitemap+(x.sin_leer?"; "+x.sin_leer+" no se pudieron leer":"")+(x.otros>1?"; "+x.otros+" páginas no eran productos":"")+"</div>";
+  }).join("");
   $("upd").textContent=new Date(j.updated).toLocaleDateString("es-AR",{day:"numeric",month:"long",year:"numeric"});
 }
 const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
 function render(){
   const q=norm($("q").value.trim()),on=[...document.querySelectorAll("[data-s]")].filter(c=>c.checked).map(c=>c.dataset.s);
-  const cat=$("cat").value,plat=$("plat").value,only=$("stock").checked,so=$("sort").value;
+  const plat=$("plat").value,only=$("stock").checked,so=$("sort").value;
   // el más barato de cada producto presente en 2 o más tiendas con stock
   const best={};
   D.filter(d=>d.g&&d.st&&d.pr).forEach(d=>{(best[d.g]=best[d.g]||[]).push(d)});
   const cheapest=new Set(Object.values(best).filter(a=>a.length>1&&new Set(a.map(x=>x.s)).size>1).map(a=>a.reduce((m,x)=>x.pr<m.pr?x:m)));
-  let r=D.filter(d=>on.includes(d.s)&&(!cat||d.c===cat)&&(!plat||d.p===plat)&&(!only||d.st)&&(!q||q.split(/\s+/).every(w=>norm(d.n+" "+d.p).includes(w))));
+  let r=D.filter(d=>on.includes(d.s)&&(!plat||d.p===plat)&&(!only||d.st)&&(!q||q.split(/\s+/).every(w=>norm(d.n+" "+d.p).includes(w))));
   r.sort((a,b)=>(b.st-a.st)||(so==="name"?a.n.localeCompare(b.n,"es"):so==="desc"?(b.pr??0)-(a.pr??0):(a.pr??1e12)-(b.pr??1e12)));
   const total=r.length;r=r.slice(0,limit);
   $("count").textContent=total+(total===1?" producto":" productos")+(total>limit?" (mostrando "+limit+")":"");
   $("more").style.display=total>limit?"inline-block":"none";
   $("list").innerHTML=r.length?r.map(d=>`<div class="row${d.st?"":" out"}">
     <div class="store" style="--c:${S[d.s].c}"><i></i>${esc(S[d.s].short)}</div>
-    <div class="nm"><div class="name">${esc(d.n)}${cheapest.has(d)?'<span class="tag">Más barato</span>':""}</div><div class="meta">${d.c}</div></div>
+    <div class="nm"><div class="name">${esc(d.n)}${cheapest.has(d)?'<span class="tag">Más barato</span>':""}</div></div>
     <div class="pl meta">${d.p==="—"?"":d.p}</div>
     <div class="pc">${d.st&&!d.pr?'<div class="meta">Consultar precio</div>':d.st?`<div class="price">${fmt(d.pr)}</div>${d.tr?`<div class="tr">${fmt(d.tr)} por transferencia</div>`:""}`:'<div class="meta">Sin stock</div>'}</div>
     <div class="act"><a class="go" href="${d.u}" target="_blank" rel="noopener">Ver en tienda</a></div></div>`).join(""):'<div class="empty">No hay productos con esos filtros. Probá con otra búsqueda o desactivá “Solo con stock”.</div>';
