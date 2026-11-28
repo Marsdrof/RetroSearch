@@ -24,9 +24,10 @@ from bs4 import BeautifulSoup
 OUT = Path(__file__).with_name("productos.json")
 UA = "Mozilla/5.0 (compatible; MetabuscadorRetro/1.0; uso personal)"
 DELAY = 0.7      # segundos entre pedidos de una misma tienda, para no cargarla
-WORKERS = 4      # páginas de producto que se leen a la vez en la pasada del sitemap
+WORKERS = 3      # páginas de producto que se leen a la vez en la pasada del sitemap
 MAX_PAGES = 60   # tope de seguridad por categoría
-MAX_EXTRA = 400  # tope de páginas sueltas a revisar por tienda en la pasada del sitemap
+MAX_EXTRA = 5000      # tope de páginas sueltas a revisar por tienda en la pasada del sitemap
+SITEMAP_BUDGET = 1500  # segundos máximos por tienda leyendo páginas sueltas (lo que falte sigue en la próxima corrida)
 PRICE_RE = re.compile(r"\$\s*([\d\.]+(?:,\d{1,2})?)")
 
 # Cada categoría: (ruta, categoría que se muestra, plataforma o "—")
@@ -220,8 +221,13 @@ def key(u):
 
 
 def fetch_text(url):
-    r = session.get(url, timeout=30)
-    r.raise_for_status()
+    for attempt in range(4):
+        r = session.get(url, timeout=30)
+        if r.status_code in (429, 503) and attempt < 3:
+            time.sleep(5 * 2 ** attempt)
+            continue
+        r.raise_for_status()
+        break
     data = r.content
     if data[:2] == b"\x1f\x8b":          # sitemap comprimido (.gz)
         data = gzip.decompress(data)
@@ -280,7 +286,7 @@ def parse_product_page(url):
     # Lee una página de producto suelta. Devuelve None si la página no es un producto.
     r = get_page(url)
     if r is None:
-        return None
+        return False
     soup = BeautifulSoup(r.text, "html.parser")
     name, price, stock = None, None, 1
     for tag in soup.find_all("script", type="application/ld+json"):
@@ -340,6 +346,7 @@ def completar_con_sitemap(store, found, debug=False):
     missing = [u for k, u in in_map.items() if k not in known]
     say(f"  Sitemap: {len(in_map)} páginas candidatas, {len(in_map) - len(missing)} ya cubiertas "
           f"por las categorías, {len(missing)} faltaban")
+    store["stats"] = {"sitemap": len(in_map), "agregados": 0, "sin_leer": len(missing)}
     if debug or not missing:
         return
     cats = [(key(base + p), c, pl) for p, c, pl in store["categories"]]
@@ -351,35 +358,72 @@ def completar_con_sitemap(store, found, debug=False):
                 return c, pl
         return None
 
-    added = 0
+    today = datetime.date.today()
+    old = store.get("old", {})
+
+    def fresh(o):
+        # Un agotado leído hace menos de 7 días, o cualquier producto leído hoy, se reutiliza.
+        try:
+            age = (today - datetime.date.fromisoformat(o.get("t", ""))).days
+        except ValueError:
+            return False
+        return age < (7 if o.get("st") == 0 else 1)
+
+    todo, reused = [], 0
+    for u in missing:
+        o = old.get(u)
+        if o and fresh(o):
+            found[u] = o
+            reused += 1
+        else:
+            todo.append(u)
+    todo.sort(key=lambda u: u in old)          # primero los productos nunca vistos
+    deadline = time.time() + SITEMAP_BUDGET
 
     def fetch(u):
+        if time.time() > deadline:
+            return u, "skip"
         time.sleep(DELAY / 2)
         return u, parse_product_page(u)
 
     with ThreadPoolExecutor(WORKERS) as ex:
-        results = list(ex.map(fetch, missing[:MAX_EXTRA]))
+        results = list(ex.map(fetch, todo[:MAX_EXTRA]))
+    added = skipped = failed = 0
     for u, p in results:
+        if p == "skip":
+            skipped += 1
+            if u in old:
+                found[u] = old[u]              # dejo lo anterior hasta la próxima corrida
+            continue
+        if p is False:
+            failed += 1
         if not p:
             continue
         c, pl = from_path(u) or (guess_category(p["n"]), guess_platform(p["n"] + " " + u))
         found[u] = {"s": store["id"], "n": p["n"], "p": pl, "c": c,
-                    "pr": p["pr"], "tr": None, "st": p["st"], "u": u}
+                    "pr": p["pr"], "tr": None, "st": p["st"], "u": u, "t": today.isoformat()}
         added += 1
-    rest = len(missing) - MAX_EXTRA
-    extra = f" ({rest} quedaron sin revisar por el tope)" if rest > 0 else ""
-    say(f"  Sitemap: {added} productos agregados{extra}")
+    skipped += max(0, len(todo) - MAX_EXTRA)
+    store["stats"]["agregados"] = added + reused
+    store["stats"]["sin_leer"] = skipped + failed
+    note = f"; {skipped} quedan para la próxima corrida" if skipped else ""
+    say(f"  Sitemap: {added} leídos, {reused} reutilizados de la corrida anterior, {failed} con error{note}")
 
 
 def get_page(url):
-    for attempt in range(2):
+    r = None
+    for attempt in range(4):
         try:
             r = session.get(url, timeout=30)
         except requests.RequestException as e:
             say(f"  ! {url}: {e}")
             return None
-        if r.status_code in (429, 503) and attempt == 0:
-            time.sleep(5)          # la tienda pidió esperar: un reintento
+        if r.status_code in (429, 503) and attempt < 3:
+            try:
+                wait = min(int(getattr(r, "headers", {}).get("Retry-After", "")), 60)
+            except ValueError:
+                wait = 5 * 2 ** attempt
+            time.sleep(wait)          # la tienda pidió esperar: reintento con pausa
             continue
         break
     if r.status_code != 200:
@@ -494,6 +538,8 @@ def main():
     debug = "--debug" in args
     only = [a for a in args if not a.startswith("--")]
     old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"items": []}
+    for st in STORES:
+        st["old"] = {i["u"]: i for i in old["items"] if i["s"] == st["id"]}
     todo = [st for st in STORES if not only or st["id"] in only]
     with ThreadPoolExecutor(max(1, len(todo))) as ex:       # una tienda por hilo
         results = dict(ex.map(lambda st: run_store(st, debug), todo))
@@ -516,7 +562,13 @@ def main():
             items += new
     if debug:
         return
+    stats = dict(old.get("stats", {}))
+    for store in STORES:
+        if store["id"] in results and store.get("stats") and not debug:
+            n = sum(1 for i in items if i["s"] == store["id"])
+            stats[store["id"]] = {**store["stats"], "total": n}
     data = {
+        "stats": stats,
         "updated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
         "stores": [{"id": st["id"], "name": st["name"], "short": st["short"]} for st in STORES],
         "items": items,
