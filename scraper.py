@@ -389,6 +389,7 @@ def completar_con_sitemap(store, found, debug=False):
     with ThreadPoolExecutor(WORKERS) as ex:
         results = list(ex.map(fetch, todo[:MAX_EXTRA]))
     added = skipped = failed = 0
+    notprod = []
     for u, p in results:
         if p == "skip":
             skipped += 1
@@ -397,6 +398,8 @@ def completar_con_sitemap(store, found, debug=False):
             continue
         if p is False:
             failed += 1
+        if p is None:
+            notprod.append(u)
         if not p:
             continue
         c, pl = from_path(u) or (guess_category(p["n"]), guess_platform(p["n"] + " " + u))
@@ -406,6 +409,9 @@ def completar_con_sitemap(store, found, debug=False):
     skipped += max(0, len(todo) - MAX_EXTRA)
     store["stats"]["agregados"] = added + reused
     store["stats"]["sin_leer"] = skipped + failed
+    store["stats"]["otros"] = len(notprod)
+    if notprod:
+        say(f"  Sitemap: {len(notprod)} páginas no se reconocieron como producto (ej.: " + ", ".join(notprod[:3]) + ")")
     note = f"; {skipped} quedan para la próxima corrida" if skipped else ""
     say(f"  Sitemap: {added} leídos, {reused} reutilizados de la corrida anterior, {failed} con error{note}")
 
@@ -566,7 +572,8 @@ def main():
     for store in STORES:
         if store["id"] in results and store.get("stats") and not debug:
             n = sum(1 for i in items if i["s"] == store["id"])
-            stats[store["id"]] = {**store["stats"], "total": n}
+            stats[store["id"]] = {**store["stats"], "total": n,
+                                  "en_stock": sum(1 for i in items if i["s"] == store["id"] and i["st"])}
     data = {
         "stats": stats,
         "updated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
