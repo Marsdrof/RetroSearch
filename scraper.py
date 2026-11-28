@@ -13,7 +13,9 @@ import urllib.parse
 import json
 import re
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import requests
@@ -21,7 +23,8 @@ from bs4 import BeautifulSoup
 
 OUT = Path(__file__).with_name("productos.json")
 UA = "Mozilla/5.0 (compatible; MetabuscadorRetro/1.0; uso personal)"
-DELAY = 1.5      # segundos entre pedidos, para no cargar a las tiendas
+DELAY = 0.7      # segundos entre pedidos de una misma tienda, para no cargarla
+WORKERS = 4      # páginas de producto que se leen a la vez en la pasada del sitemap
 MAX_PAGES = 60   # tope de seguridad por categoría
 MAX_EXTRA = 400  # tope de páginas sueltas a revisar por tienda en la pasada del sitemap
 PRICE_RE = re.compile(r"\$\s*([\d\.]+(?:,\d{1,2})?)")
@@ -84,10 +87,53 @@ STORES = [
             ("/vhs-y-dvd", "VHS y DVD", "—"),
         ],
     },
+    {
+        "id": "jm", "name": "JM Juegos", "short": "JM Juegos",
+        "base": "https://jmjuegos.mitiendanube.com", "kind": "tiendanube",
+        "sitemap": "https://jmjuegos.mitiendanube.com/sitemap.xml",
+        "product_re": r"^https?://jmjuegos\.mitiendanube\.com/productos/[^/]+/?$",
+        "categories": [("/productos/", "Otros", "—")],
+    },
+    {
+        "id": "club", "name": "El Club del Coleccionismo", "short": "El Club",
+        "base": "https://www.elclubdelcoleccionismo.com.ar", "kind": "tiendanube",
+        "sitemap": "https://www.elclubdelcoleccionismo.com.ar/sitemap.xml",
+        "product_re": r"^https?://(www\.)?elclubdelcoleccionismo\.com\.ar/productos/[^/]+/?$",
+        "categories": [("/productos/", "Otros", "—")],
+    },
+    {
+        "id": "express", "name": "Express Game", "short": "Express Game",
+        "base": "https://www.expressgame.com.ar", "kind": "tiendanube",
+        "sitemap": "https://www.expressgame.com.ar/sitemap.xml",
+        "product_re": r"^https?://(www\.)?expressgame\.com\.ar/productos/[^/]+/?$",
+        "categories": [("/productos/", "Otros", "—")],
+    },
+    {
+        # No pude abrir su sitemap desde acá: se prueba igual y, si no se puede leer, se omite.
+        "id": "retro", "name": "Retro Family", "short": "Retro Family",
+        "base": "https://www.retrofamily.com.ar", "kind": "tiendanube", "optional": True,
+        "sitemap": "https://www.retrofamily.com.ar/sitemap.xml",
+        "product_re": r"^https?://(www\.)?retrofamily\.com\.ar/productos/[^/]+/?$",
+        "categories": [("/productos/", "Otros", "—")],
+    },
+    {
+        # Pency carga los productos con JavaScript: lectura experimental.
+        "id": "frodo", "name": "Frodo Store", "short": "Frodo Store",
+        "base": "https://pency.app/frodostore", "kind": "pency", "optional": True,
+        "categories": [],
+    },
 ]
 
 session = requests.Session()
 session.headers["User-Agent"] = UA
+tl = threading.local()
+print_lock = threading.Lock()
+
+
+def say(msg):
+    name = getattr(tl, "name", "")
+    with print_lock:               # evita que se mezclen las líneas de las dos tiendas
+        print(f"[{name}] {msg}" if name else msg, flush=True)
 
 
 def to_number(text):
@@ -187,7 +233,7 @@ def sitemap_urls(url, depth=0):
     try:
         text = fetch_text(url)
     except Exception as e:
-        print(f"  ! sitemap {url}: {e}")
+        say(f"  ! sitemap {url}: {e}")
         return []
     out = []
     for loc in re.findall(r"<loc>\s*(.*?)\s*</loc>", text, re.S):
@@ -201,10 +247,13 @@ def sitemap_urls(url, depth=0):
     return out
 
 
-PLATFORMS = [(r"\bps1\b", "PS1"), (r"\bps2\b", "PS2"), (r"\bps3\b", "PS3"), (r"\bps4\b", "PS4"),
-             (r"\bps5\b", "PS5"), (r"\bpsp\b", "PSP"), (r"\bn64\b|nintendo 64", "N64"),
-             (r"saturn", "Saturn"), (r"dreamcast", "Dreamcast"), (r"genesis|megadrive", "Genesis"),
-             (r"switch", "Switch"), (r"gamecube", "GameCube"), (r"\bwii\b", "Wii"),
+PLATFORMS = [(r"\bps1\b|playstation 1\b", "PS1"), (r"\bps2\b|playstation 2\b", "PS2"),
+             (r"\bps3\b|playstation 3\b", "PS3"), (r"\bps4\b|playstation 4\b", "PS4"),
+             (r"\bps5\b|playstation 5\b", "PS5"), (r"\bpsp\b", "PSP"), (r"ps vita|\bvita\b", "PS Vita"),
+             (r"\bn64\b|nintendo 64", "N64"), (r"saturn", "Saturn"), (r"dreamcast", "Dreamcast"),
+             (r"genesis|megadrive|mega drive", "Genesis"), (r"switch 2", "Switch 2"), (r"switch", "Switch"),
+             (r"gamecube", "GameCube"), (r"wii ?u", "Wii U"), (r"\bwii\b", "Wii"), (r"\b3ds\b", "3DS"),
+             (r"nintendo ds|\bnds\b|\bds\b", "DS"), (r"xbox 360", "Xbox 360"), (r"xbox one", "Xbox One"),
              (r"game ?boy", "Game Boy")]
 
 
@@ -216,13 +265,21 @@ def guess_platform(text):
     return "—"
 
 
+def guess_category(name):
+    t = name.lower()
+    if re.search(r"figura|funko|blokees|figuarts|marvel legends|zoteki|hasbro|neca", t):
+        return "Figuras"
+    if re.search(r"\bconsola\b|classic mini|\bslim\b|\bfat\b|wii mini|ds lite|game ?boy (dmg|pocket|color|advance)|game and watch|portatil", t):
+        return "Consolas"
+    if re.search(r"joystick|\bcontrol\b|controller|mando|cargador|cable|memory card|estuche|funda|soporte|auricular|everdrive|arcade stick|powerbank", t):
+        return "Accesorios"
+    return "Juegos"
+
+
 def parse_product_page(url):
     # Lee una página de producto suelta. Devuelve None si la página no es un producto.
-    try:
-        r = session.get(url, timeout=30)
-    except requests.RequestException:
-        return None
-    if r.status_code != 200:
+    r = get_page(url)
+    if r is None:
         return None
     soup = BeautifulSoup(r.text, "html.parser")
     name, price, stock = None, None, 1
@@ -261,7 +318,7 @@ def parse_product_page(url):
                     pass
     if not name:
         return None
-    if soup.select_one(".label-soldout") or not price:
+    if soup.select_one(".label-soldout") or price == 0:
         stock = 0
     if not stock:
         price = None
@@ -281,80 +338,178 @@ def completar_con_sitemap(store, found, debug=False):
         in_map.setdefault(k, u)
     known = {key(u) for u in found}
     missing = [u for k, u in in_map.items() if k not in known]
-    print(f"  Sitemap: {len(in_map)} páginas candidatas, {len(in_map) - len(missing)} ya cubiertas "
+    say(f"  Sitemap: {len(in_map)} páginas candidatas, {len(in_map) - len(missing)} ya cubiertas "
           f"por las categorías, {len(missing)} faltaban")
     if debug or not missing:
         return
+    cats = [(key(base + p), c, pl) for p, c, pl in store["categories"]]
+
+    def from_path(u):
+        k = key(u)
+        for cp, c, pl in cats:
+            if cp and c != "Otros" and k.startswith(cp + "/"):
+                return c, pl
+        return None
+
     added = 0
-    for u in missing[:MAX_EXTRA]:
-        p = parse_product_page(u)
-        time.sleep(DELAY)
+
+    def fetch(u):
+        time.sleep(DELAY / 2)
+        return u, parse_product_page(u)
+
+    with ThreadPoolExecutor(WORKERS) as ex:
+        results = list(ex.map(fetch, missing[:MAX_EXTRA]))
+    for u, p in results:
         if not p:
             continue
-        found[u] = {"s": store["id"], "n": p["n"], "p": guess_platform(p["n"] + " " + u), "c": "Otros",
+        c, pl = from_path(u) or (guess_category(p["n"]), guess_platform(p["n"] + " " + u))
+        found[u] = {"s": store["id"], "n": p["n"], "p": pl, "c": c,
                     "pr": p["pr"], "tr": None, "st": p["st"], "u": u}
         added += 1
     rest = len(missing) - MAX_EXTRA
     extra = f" ({rest} quedaron sin revisar por el tope)" if rest > 0 else ""
-    print(f"  Sitemap: {added} productos agregados{extra}")
+    say(f"  Sitemap: {added} productos agregados{extra}")
+
+
+def get_page(url):
+    for attempt in range(2):
+        try:
+            r = session.get(url, timeout=30)
+        except requests.RequestException as e:
+            say(f"  ! {url}: {e}")
+            return None
+        if r.status_code in (429, 503) and attempt == 0:
+            time.sleep(5)          # la tienda pidió esperar: un reintento
+            continue
+        break
+    if r.status_code != 200:
+        if r.status_code != 404:
+            say(f"  ! {url}: HTTP {r.status_code}")
+        return None
+    return r
 
 
 def crawl_store(store, debug=False):
     parser = parse_tiendanube if store["kind"] == "tiendanube" else parse_empretienda
     base, found = store["base"], {}
+    store.setdefault("page_param", "page")
+    probed = False
     for path, cat, plat in store["categories"]:
         seen_here = set()
-        for page in range(1, MAX_PAGES + 1):
-            url = f"{base}{path}?page={page}"
-            try:
-                r = session.get(url, timeout=30)
-            except requests.RequestException as e:
-                print(f"  ! {url}: {e}")
-                break
-            if r.status_code == 404:
-                break
-            if r.status_code != 200:
-                print(f"  ! {url}: HTTP {r.status_code}")
+        page = 1
+        while page <= MAX_PAGES:
+            r = get_page(f"{base}{path}?{store['page_param']}={page}")
+            if r is None:
                 break
             if debug and page == 1 and not found:
                 Path(f"debug_{store['id']}.html").write_text(r.text, encoding="utf-8")
             items = parser(BeautifulSoup(r.text, "html.parser"), base)
             new = [i for i in items if i["u"] not in seen_here]
             if debug and page == 1:
-                print(f"  {path}: {len(items)} productos detectados en la página 1")
+                say(f"  {path}: {len(items)} productos detectados en la página 1")
+            if not new and page == 2 and not probed and len(seen_here) >= 10:
+                # La página 2 no trae nada nuevo con "?page=2": pruebo otros nombres de parámetro.
+                probed = True
+                for alt in ("pagina", "p", "pg", "pag"):
+                    time.sleep(DELAY)
+                    r2 = get_page(f"{base}{path}?{alt}=2")
+                    if r2 is None:
+                        continue
+                    its = parser(BeautifulSoup(r2.text, "html.parser"), base)
+                    fresh = [i for i in its if i["u"] not in seen_here]
+                    if fresh:
+                        store["page_param"] = alt
+                        new = fresh
+                        say(f"  (la paginación de esta tienda usa ?{alt}=N)")
+                        break
+                else:
+                    say("  (no pude detectar la paginación; completo con el sitemap)")
             if not new:
                 break
             for i in new:
                 seen_here.add(i["u"])
                 if i["u"] not in found:
-                    found[i["u"]] = {"s": store["id"], "n": i["n"], "p": plat, "c": cat,
+                    found[i["u"]] = {"s": store["id"], "n": i["n"], "p": plat if plat != "—" else guess_platform(i["n"] + " " + i["u"]),
+                                     "c": cat if cat != "Otros" else guess_category(i["n"]),
                                      "pr": i["pr"], "tr": i["tr"], "st": i["st"], "u": i["u"]}
+            page += 1
             time.sleep(DELAY)
-        time.sleep(DELAY)
-        print(f"  {cat} / {plat}: {len(seen_here)} productos")
+        say(f"  {cat} / {plat}: {len(seen_here)} productos")
         if debug:
             break          # en modo debug solo la primera categoría
     completar_con_sitemap(store, found, debug)
     return list(found.values())
 
 
+def crawl_pency(store, debug=False):
+    # Pency (Next.js): intenta leer los productos que vengan dentro de los datos de la página.
+    r = get_page(store["base"])
+    if r is None:
+        return []
+    if debug:
+        Path(f"debug_{store['id']}.html").write_text(r.text, encoding="utf-8")
+    tag = BeautifulSoup(r.text, "html.parser").find("script", id="__NEXT_DATA__")
+    if not tag or not tag.string:
+        say("  Pency: no encontré los datos de productos en la página (se cargan con JavaScript).")
+        return []
+    try:
+        data = json.loads(tag.string)
+    except ValueError:
+        return []
+    found = {}
+
+    def walk(o):
+        if isinstance(o, dict):
+            name = o.get("title") or o.get("name")
+            price = o.get("price")
+            if isinstance(name, str) and isinstance(price, (int, float)) and not isinstance(price, bool):
+                pid = str(o.get("id") or o.get("_id") or name)
+                avail = o.get("available", o.get("stock"))
+                st = 0 if (avail is False or avail == 0) else 1
+                found.setdefault(pid, {"s": store["id"], "n": name.strip(),
+                                       "p": guess_platform(name), "c": guess_category(name),
+                                       "pr": float(price) if st and price else None, "tr": None,
+                                       "st": st, "u": store["base"]})
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+
+    walk(data)
+    say(f"  Pency: {len(found)} productos leídos")
+    return list(found.values())
+
+
+def run_store(store, debug):
+    tl.name = store["short"]
+    if store["kind"] == "pency":
+        return store["id"], crawl_pency(store, debug)
+    return store["id"], crawl_store(store, debug)
+
+
 def main():
+    t0 = time.time()
     args = sys.argv[1:]
     debug = "--debug" in args
     only = [a for a in args if not a.startswith("--")]
     old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"items": []}
+    todo = [st for st in STORES if not only or st["id"] in only]
+    with ThreadPoolExecutor(max(1, len(todo))) as ex:       # una tienda por hilo
+        results = dict(ex.map(lambda st: run_store(st, debug), todo))
     items, failed = [], False
     for store in STORES:
-        if only and store["id"] not in only:
-            items += [i for i in old["items"] if i["s"] == store["id"]]
-            continue
-        print(f"{store['name']}:")
-        new = crawl_store(store, debug)
         prev = [i for i in old["items"] if i["s"] == store["id"]]
-        if debug:
+        if debug or store["id"] not in results:
             items += prev
-        elif not new or (prev and len(new) < 0.5 * len(prev)):
-            print(f"  !! Solo {len(new)} productos (antes {len(prev)}). Conservo los datos anteriores.")
+            continue
+        new = results[store["id"]]
+        if not new and store.get("optional"):
+            say(f"{store['short']}: no se pudo leer (tienda opcional), se omite.")
+            items += prev
+            continue
+        if not new or (prev and len(new) < 0.5 * len(prev)):
+            say(f"!! {store['short']}: solo {len(new)} productos (antes {len(prev)}). Conservo los datos anteriores.")
             items += prev
             failed = True
         else:
@@ -363,11 +518,11 @@ def main():
         return
     data = {
         "updated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-        "stores": [{"id": s["id"], "name": s["name"], "short": s["short"]} for s in STORES],
+        "stores": [{"id": st["id"], "name": st["name"], "short": st["short"]} for st in STORES],
         "items": items,
     }
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"Listo: {len(items)} productos en total.")
+    say(f"Listo: {len(items)} productos en total ({int(time.time() - t0)} s).")
     if failed:
         sys.exit(1)
 
